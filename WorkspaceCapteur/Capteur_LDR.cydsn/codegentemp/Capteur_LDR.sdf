@@ -1,0 +1,26 @@
+(DELAYFILE
+ (SDFVERSION "IEEE 1497 4.0")
+ (DATE "2021-01-06T09:43:00Z")
+ (DESIGN "Capteur_LDR")
+ (VENDOR "Cypress Semiconductor")
+ (PROGRAM "PSoC Creator")
+ (VERSION " 4.4")
+ (DIVIDER .)
+ (TIMESCALE 1 ns)
+ (CELL
+  (CELLTYPE "Capteur_LDR")
+  (INSTANCE *)
+  (DELAY
+   (ABSOLUTE
+    (INTERCONNECT LED3\(0\).pad_out LED3\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT LED4\(0\).pad_out LED4\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT \\Comp_1\:ctComp\\.out LED4\(0\).pin_input (3.770:3.770:3.770))
+    (INTERCONNECT \\Comp_2\:ctComp\\.out LED3\(0\).pin_input (3.003:3.003:3.003))
+    (INTERCONNECT LED4\(0\).pad_out LED4\(0\)_PAD (0.000:0.000:0.000))
+    (INTERCONNECT LED4\(0\)_PAD LED4\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT LED3\(0\).pad_out LED3\(0\)_PAD (0.000:0.000:0.000))
+    (INTERCONNECT LED3\(0\)_PAD LED3\(0\).pad_in (0.000:0.000:0.000))
+   )
+  )
+ )
+)
