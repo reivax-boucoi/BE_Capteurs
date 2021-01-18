@@ -14,7 +14,11 @@
 int main(void)
 {
     CyGlobalIntEnable; /* Enable global interrupts. */
-
+    IDAC8_Start();
+    VDAC8_1_Start();
+    VDAC8_2_Start();
+    Comp_1_Start();
+    Comp_2_Start();
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
 
     for(;;)

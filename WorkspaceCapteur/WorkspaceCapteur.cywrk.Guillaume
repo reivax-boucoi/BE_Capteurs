@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>WorkspaceCapteur</v>
+<v>WorkspaceCapteur\Capteur_LDR\TopDesign</v>
+<v>WorkspaceCapteur\Capteur_LDR\Capteur_LDR.cydwr</v>
+<v>WorkspaceCapteur\Capteur_LDR\Capteur_LDR.cydwr\Pins</v>
+<v>WorkspaceCapteur\Capteur_LDR\Capteur_LDR.cydwr\Analog</v>
+<v>WorkspaceCapteur\Capteur_LDR\Capteur_LDR.cydwr\Clocks</v>
+<v>WorkspaceCapteur\Capteur_LDR\Capteur_LDR.cydwr\Interrupts</v>
+<v>WorkspaceCapteur\Capteur_LDR\Capteur_LDR.cydwr\DMA</v>
+<v>WorkspaceCapteur\Capteur_LDR\Capteur_LDR.cydwr\System</v>
+<v>WorkspaceCapteur\Capteur_LDR\Capteur_LDR.cydwr\Directives</v>
+<v>WorkspaceCapteur\Capteur_LDR\Capteur_LDR.cydwr\Flash Security</v>
+<v>WorkspaceCapteur\Capteur_LDR\Capteur_LDR.cydwr\EEPROM</v>
+<v>WorkspaceCapteur\Capteur_LDR\Header Files</v>
+<v>WorkspaceCapteur\Capteur_LDR\Header Files\cyapicallbacks.h</v>
+<v>WorkspaceCapteur\Capteur_LDR\Source Files</v>
+<v>WorkspaceCapteur\Capteur_LDR\Source Files\main.c</v>
+<v>WorkspaceCapteur\Capteur_LDR\Generated_Source</v>
+<v>WorkspaceCapteur\Capteur_LDR\Generated_Source\PSoC5</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\TopDesign</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr\Pins</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr\Analog</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr\Clocks</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr\Interrupts</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr\DMA</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr\System</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr\Directives</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr\Flash Security</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr\EEPROM</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Header Files</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Header Files\cyapicallbacks.h</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Source Files</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Source Files\main.c</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source\PSoC5</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\TopDesign</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Capteur_LDR_Potar.cydwr</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Capteur_LDR_Potar.cydwr\Pins</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Capteur_LDR_Potar.cydwr\Analog</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Capteur_LDR_Potar.cydwr\Clocks</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Capteur_LDR_Potar.cydwr\Interrupts</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Capteur_LDR_Potar.cydwr\DMA</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Capteur_LDR_Potar.cydwr\System</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Capteur_LDR_Potar.cydwr\Directives</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Capteur_LDR_Potar.cydwr\Flash Security</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Capteur_LDR_Potar.cydwr\EEPROM</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Header Files</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Header Files\cyapicallbacks.h</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Source Files</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Source Files\main.c</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Generated_Source</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Generated_Source\PSoC5</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>WorkspaceCapteur</v>
+<v>WorkspaceCapteur\Capteur_LDR</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\TopDesign</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr\Pins</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr\Analog</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr\Clocks</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr\Interrupts</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr\DMA</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr\System</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr\Directives</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr\Flash Security</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.cydwr\EEPROM</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Header Files</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Header Files\cyapicallbacks.h</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Source Files</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Source Files\main.c</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source\PSoC5</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source\PSoC5\ADC_SAR_Seq</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source\PSoC5\ADC_SAR_Seq_FinalBuf</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source\PSoC5\ADC_SAR_Seq_IntClock</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source\PSoC5\ADC_SAR_Seq_IRQ</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source\PSoC5\ADC_SAR_Seq_SAR</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source\PSoC5\ADC_SAR_Seq_TempBuf</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source\PSoC5\Control_Reg_1</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source\PSoC5\cy_boot</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source\PSoC5\Em_EEPROM_Dynamic</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source\PSoC5\IDAC8</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source\PSoC5\LCD</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source\PSoC5\LCD_LCDPort</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source\PSoC5\LDR</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source\PSoC5\LDR_bis</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source\PSoC5\LED</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Generated_Source\PSoC5\Potar</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>WorkspaceCapteur</v>
+<v>WorkspaceCapteur\Capteur_LDR</v>
+<v>WorkspaceCapteur\Capteur_LDR\TopDesign</v>
+<v>WorkspaceCapteur\Capteur_LDR\TopDesign\TopDesign.cysch</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\TopDesign</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\TopDesign\TopDesign.cysch</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\TopDesign</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>WorkspaceCapteur</v>
+<v>WorkspaceCapteur\Capteur_LDR</v>
+<v>WorkspaceCapteur\Capteur_LDR\TopDesign</v>
+<v>WorkspaceCapteur\Capteur_LDR\TopDesign\TopDesign.cysch</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\TopDesign</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\TopDesign\TopDesign.cysch</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\TopDesign</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>WorkspaceCapteur</v>
+<v>WorkspaceCapteur\Capteur_LDR</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\Comp_1.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\Comp_1_PM.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\Comp_2.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\Comp_2_PM.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\IDAC8.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\IDAC8_PM.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\LDR.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\LED3.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\LED4.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\VDAC8_1.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\VDAC8_1_PM.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\VDAC8_2.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\VDAC8_2_PM.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Capteur_LDR.elf</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Capteur_LDR.hex</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Capteur_LDR.map</v>
+<v>WorkspaceCapteur\Capteur_LDR\Capteur_LDR.gpdsc</v>
+<v>WorkspaceCapteur\Capteur_LDR\Capteur_LDR.rpt</v>
+<v>WorkspaceCapteur\Capteur_LDR\Capteur_LDR_timing.html</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_FinalBuf_dma.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_INT.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_IntClock.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_IRQ.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_PM.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_SAR.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_SAR_INT.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_SAR_PM.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_TempBuf_dma.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\Control_Reg_1.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\Control_Reg_1_PM.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\IDAC8.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\IDAC8_PM.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_PM.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\LDR.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\LDR_bis.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Listing Files\Potar.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Capteur_LDR_LCD.elf</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Capteur_LDR_LCD.hex</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CortexM3\ARM_GCC_541\Debug\Capteur_LDR_LCD.map</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.gpdsc</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD.rpt</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Capteur_LDR_LCD_timing.html</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\Comp_1.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\Comp_1_PM.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\Comp_2.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\Comp_2_PM.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\IDAC8.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\IDAC8_PM.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\LDR.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\PGA_1.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\PGA_1_PM.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_1.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Capteur_LDR_Potar.elf</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Capteur_LDR_Potar.hex</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CortexM3\ARM_GCC_541\Debug\Capteur_LDR_Potar.map</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Capteur_LDR_Potar.gpdsc</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Capteur_LDR_Potar.rpt</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Capteur_LDR_Potar_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>WorkspaceCapteur</v>
+<v>WorkspaceCapteur\Capteur_LDR</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\Comp_1.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\Comp_1_PM.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\Comp_2.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\Comp_2_PM.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\IDAC8.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\IDAC8_PM.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\LDR.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\LED3.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\LED4.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\VDAC8_1.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\VDAC8_1_PM.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\VDAC8_2.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Listing Files\VDAC8_2_PM.lst</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Capteur_LDR.elf</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Capteur_LDR.hex</v>
+<v>WorkspaceCapteur\Capteur_LDR\CortexM3\ARM_GCC_541\Debug\Capteur_LDR.map</v>
+<v>WorkspaceCapteur\Capteur_LDR\Capteur_LDR.gpdsc</v>
+<v>WorkspaceCapteur\Capteur_LDR\Capteur_LDR.rpt</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>WorkspaceCapteur</v>
+<v>WorkspaceCapteur\Capteur_LDR</v>
+<v>WorkspaceCapteur\Capteur_LDR\PSoC 5LP Architecture TRM</v>
+<v>WorkspaceCapteur\Capteur_LDR\CY8C58LP Family Datasheet</v>
+<v>WorkspaceCapteur\Capteur_LDR\System Reference Guides</v>
+<v>WorkspaceCapteur\Capteur_LDR\System Reference Guides\cy_boot_v6_0</v>
+<v>WorkspaceCapteur\Capteur_LDR\Comp_v2_0</v>
+<v>WorkspaceCapteur\Capteur_LDR\Comp_v2_0\Comp_v2_0.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR\cy_pins_v2_20</v>
+<v>WorkspaceCapteur\Capteur_LDR\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR\IDAC8_v2_0.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR\VDAC8_v1_90</v>
+<v>WorkspaceCapteur\Capteur_LDR\VDAC8_v1_90\VDAC8_v1_90.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\PSoC 5LP Architecture TRM</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CY8C58LP Family Datasheet</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\System Reference Guides</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\System Reference Guides\cy_boot_v6_0</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\ADC_SAR_SEQ_v2_10.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CharLCD_v2_20.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\cy_pins_v2_20</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CyControlReg_v1_80.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Gnd_v1_0.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\IDAC8_v2_0.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Potentiometer_v1_0.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Power_v1_0.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\PSoC 5LP Architecture TRM</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CY8C58LP Family Datasheet</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\System Reference Guides</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\System Reference Guides\cy_boot_v6_0</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Comp_v2_0</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Comp_v2_0\Comp_v2_0.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\cy_pins_v2_20</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Gnd_v1_0.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\IDAC8_v2_0.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\LUT_v1_60.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\PGA_v2_0.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Potentiometer_v1_0.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Power_v1_0.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>WorkspaceCapteur</v>
+<v>WorkspaceCapteur\Capteur_LDR</v>
+<v>WorkspaceCapteur\Capteur_LDR\PSoC 5LP Architecture TRM</v>
+<v>WorkspaceCapteur\Capteur_LDR\CY8C58LP Family Datasheet</v>
+<v>WorkspaceCapteur\Capteur_LDR\System Reference Guides</v>
+<v>WorkspaceCapteur\Capteur_LDR\System Reference Guides\cy_boot_v6_0</v>
+<v>WorkspaceCapteur\Capteur_LDR\Comp_v2_0</v>
+<v>WorkspaceCapteur\Capteur_LDR\Comp_v2_0\Comp_v2_0.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR\cy_pins_v2_20</v>
+<v>WorkspaceCapteur\Capteur_LDR\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR\IDAC8_v2_0.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR\VDAC8_v1_90</v>
+<v>WorkspaceCapteur\Capteur_LDR\VDAC8_v1_90\VDAC8_v1_90.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\PSoC 5LP Architecture TRM</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CY8C58LP Family Datasheet</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\System Reference Guides</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\System Reference Guides\cy_boot_v6_0</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\ADC_SAR_SEQ_v2_10.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CharLCD_v2_20.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\cy_pins_v2_20</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\CyControlReg_v1_80.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Gnd_v1_0.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\IDAC8_v2_0.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Potentiometer_v1_0.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_LCD\Power_v1_0.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\PSoC 5LP Architecture TRM</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\CY8C58LP Family Datasheet</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\System Reference Guides</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\System Reference Guides\cy_boot_v6_0</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Comp_v2_0</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\Comp_v2_0\Comp_v2_0.pdf</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\cy_pins_v2_20</v>
+<v>WorkspaceCapteur\Capteur_LDR_Potar\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\Capteur_LDR_LCD.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Capteur_LDR_LCD.cydsn\Capteur_LDR_LCD.cydwr" />
+<name v=".\Capteur_LDR_LCD.cydsn\main.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="818, 486" SelectedTabbedMdiWindow="f387a34d-3bd2-4f57-8fdc-63dfaae6d215"><DocumentWindow Key="D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR_LCD.cydsn\TopDesign\TopDesign.cysch" Guid="c3b993ac-2b4b-4272-8885-7a8021b7bc9e" /><DocumentWindow Key="D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR_LCD.cydsn\Capteur_LDR_LCD.cydwr" Guid="91e26647-520c-42ea-84cd-5f25dc2b2060" /><DocumentWindow Key="D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR_LCD.cydsn\main.c" Guid="f387a34d-3bd2-4f57-8fdc-63dfaae6d215" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

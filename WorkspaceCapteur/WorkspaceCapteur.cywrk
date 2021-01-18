@@ -3,11 +3,13 @@
 <!--This file is machine generated and read. It is not intended to be edited by hand.-->
 <!--Due to this, there is no schema for this file.-->
 <CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize" version="5" xml_contents_version="3" name="WorkspaceCapteur" persistent="WorkspaceCapteur.cywrk" platform="NOT_USED">
-<current_project name=".\Capteur_LDR.cydsn\Capteur_LDR.cyprj" />
+<current_project name=".\Capteur_LDR_LCD.cydsn\Capteur_LDR_LCD.cyprj" />
 <wrkspc_folders />
 <files />
 <projects>
 <v>.\Capteur_LDR.cydsn\Capteur_LDR.cyprj</v>
+<v>.\Capteur_LDR_Potar.cydsn\Capteur_LDR_Potar.cyprj</v>
+<v>.\Capteur_LDR_LCD.cydsn\Capteur_LDR_LCD.cyprj</v>
 </projects>
 <workspace_id v="d365874a-8b1f-4c3e-9a15-e6d7a9ddf2df" />
 <WriteAppVersionLastSavedWith v="4.4.0.80" />

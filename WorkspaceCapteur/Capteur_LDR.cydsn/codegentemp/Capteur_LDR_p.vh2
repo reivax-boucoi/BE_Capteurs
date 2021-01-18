@@ -1,5 +1,5 @@
 -- Project:   Capteur_LDR
--- Generated: 01/06/2021 10:42:56
+-- Generated: 01/18/2021 13:09:49
 -- PSoC Creator  4.4
 
 ENTITY Capteur_LDR IS

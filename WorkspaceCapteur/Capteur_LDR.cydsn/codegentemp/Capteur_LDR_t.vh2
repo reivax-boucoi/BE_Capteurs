@@ -1,5 +1,5 @@
--- Project:   C:\Users\Souleymane BAH\Documents\PSoC Creator\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj
--- Generated: 01/06/2021 10:43:00
+-- Project:   D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj
+-- Generated: 01/18/2021 13:09:51
 -- PSoC Creator  4.4
 
 ENTITY Capteur_LDR IS

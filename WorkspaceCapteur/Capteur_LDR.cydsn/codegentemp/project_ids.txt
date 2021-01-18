@@ -1,6 +1,6 @@
-C:\Users\Souleymane BAH\Documents\PSoC Creator\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj|40dd5863-b142-4892-bce5-d0a6e96a987e
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|e7d6cc43-21f9-438c-a592-d07bc04d8613
-C:\Users\Souleymane BAH\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|f821c7a2-fd41-4018-a6c6-0e40bed52adb
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|41a22507-f769-4cc1-8f18-f7f5c018c17d
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|5a59477f-ad5f-4c43-9b3a-5f8d189069c6
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|d38e282a-1753-4ce6-bfa7-0d6f6068ff08
+D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj|b4c62c32-8821-4ae4-a22d-c8f50e7fb126
+D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|b4a82c72-8e3f-48d0-a159-16c900cc64ce
+D:\Users\Guillaume\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|ff0c1ebe-9f28-459c-99d2-dd77d95b4d0a
+D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|c06a1fe6-8a0c-438f-a441-2d290bb72b45
+D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|61eea146-c9cd-4d90-9c56-f878eebaae38
+D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|916a2eaa-7c84-424d-a5a9-e2968e16abdd

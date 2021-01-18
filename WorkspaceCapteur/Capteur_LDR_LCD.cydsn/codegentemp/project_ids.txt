@@ -1,0 +1,9 @@
+D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj|b4c62c32-8821-4ae4-a22d-c8f50e7fb126
+D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|b4a82c72-8e3f-48d0-a159-16c900cc64ce
+D:\Users\Guillaume\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|ff0c1ebe-9f28-459c-99d2-dd77d95b4d0a
+D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|c06a1fe6-8a0c-438f-a441-2d290bb72b45
+D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|61eea146-c9cd-4d90-9c56-f878eebaae38
+D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|916a2eaa-7c84-424d-a5a9-e2968e16abdd
+D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\dev\psoc3\AnalogDevice\PSoC35AnalogDevice.cylib\PSoC35AnalogDevice.cyprj|1c7d9b97-b737-44e3-a7d6-5358d42c6249
+D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR_Potar.cydsn\Capteur_LDR_Potar.cyprj|307e1e2c-4fd5-4c5c-bbf7-877e731681f8
+D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR_LCD.cydsn\Capteur_LDR_LCD.cyprj|0b70d04f-8f4b-4b10-ad7a-7b62efa8e91a

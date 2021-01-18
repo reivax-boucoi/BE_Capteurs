@@ -1,0 +1,1702 @@
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.align	2
+  26              		.type	cy_meta_configecc, %object
+  27              		.size	cy_meta_configecc, 1136
+  28              	cy_meta_configecc:
+  29 0000 04       		.byte	4
+  30 0001 52       		.byte	82
+  31 0002 00       		.byte	0
+  32 0003 40       		.byte	64
+  33 0004 01       		.byte	1
+  34 0005 5B       		.byte	91
+  35 0006 00       		.byte	0
+  36 0007 40       		.byte	64
+  37 0008 01       		.byte	1
+  38 0009 64       		.byte	100
+  39 000a 00       		.byte	0
+  40 000b 40       		.byte	64
+  41 000c 11       		.byte	17
+  42 000d 00       		.byte	0
+  43 000e 01       		.byte	1
+  44 000f 40       		.byte	64
+  45 0010 25       		.byte	37
+  46 0011 01       		.byte	1
+  47 0012 01       		.byte	1
+  48 0013 40       		.byte	64
+  49 0014 1E       		.byte	30
+  50 0015 02       		.byte	2
+  51 0016 01       		.byte	1
+  52 0017 40       		.byte	64
+  53 0018 34       		.byte	52
+  54 0019 03       		.byte	3
+  55 001a 01       		.byte	1
+  56 001b 40       		.byte	64
+  57 001c 27       		.byte	39
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 2
+
+
+  58 001d 04       		.byte	4
+  59 001e 01       		.byte	1
+  60 001f 40       		.byte	64
+  61 0020 3C       		.byte	60
+  62 0021 05       		.byte	5
+  63 0022 01       		.byte	1
+  64 0023 40       		.byte	64
+  65 0024 0E       		.byte	14
+  66 0025 06       		.byte	6
+  67 0026 01       		.byte	1
+  68 0027 40       		.byte	64
+  69 0028 2E       		.byte	46
+  70 0029 07       		.byte	7
+  71 002a 01       		.byte	1
+  72 002b 40       		.byte	64
+  73 002c 02       		.byte	2
+  74 002d 09       		.byte	9
+  75 002e 01       		.byte	1
+  76 002f 40       		.byte	64
+  77 0030 07       		.byte	7
+  78 0031 14       		.byte	20
+  79 0032 01       		.byte	1
+  80 0033 40       		.byte	64
+  81 0034 27       		.byte	39
+  82 0035 15       		.byte	21
+  83 0036 01       		.byte	1
+  84 0037 40       		.byte	64
+  85 0038 0E       		.byte	14
+  86 0039 16       		.byte	22
+  87 003a 01       		.byte	1
+  88 003b 40       		.byte	64
+  89 003c 27       		.byte	39
+  90 003d 17       		.byte	23
+  91 003e 01       		.byte	1
+  92 003f 40       		.byte	64
+  93 0040 02       		.byte	2
+  94 0041 19       		.byte	25
+  95 0042 01       		.byte	1
+  96 0043 40       		.byte	64
+  97 0044 03       		.byte	3
+  98 0045 1B       		.byte	27
+  99 0046 01       		.byte	1
+ 100 0047 40       		.byte	64
+ 101 0048 0B       		.byte	11
+ 102 0049 40       		.byte	64
+ 103 004a 01       		.byte	1
+ 104 004b 40       		.byte	64
+ 105 004c 06       		.byte	6
+ 106 004d 41       		.byte	65
+ 107 004e 01       		.byte	1
+ 108 004f 40       		.byte	64
+ 109 0050 01       		.byte	1
+ 110 0051 42       		.byte	66
+ 111 0052 01       		.byte	1
+ 112 0053 40       		.byte	64
+ 113 0054 02       		.byte	2
+ 114 0055 43       		.byte	67
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 3
+
+
+ 115 0056 01       		.byte	1
+ 116 0057 40       		.byte	64
+ 117 0058 08       		.byte	8
+ 118 0059 44       		.byte	68
+ 119 005a 01       		.byte	1
+ 120 005b 40       		.byte	64
+ 121 005c 05       		.byte	5
+ 122 005d 45       		.byte	69
+ 123 005e 01       		.byte	1
+ 124 005f 40       		.byte	64
+ 125 0060 09       		.byte	9
+ 126 0061 46       		.byte	70
+ 127 0062 01       		.byte	1
+ 128 0063 40       		.byte	64
+ 129 0064 0A       		.byte	10
+ 130 0065 47       		.byte	71
+ 131 0066 01       		.byte	1
+ 132 0067 40       		.byte	64
+ 133 0068 02       		.byte	2
+ 134 0069 48       		.byte	72
+ 135 006a 01       		.byte	1
+ 136 006b 40       		.byte	64
+ 137 006c 01       		.byte	1
+ 138 006d 49       		.byte	73
+ 139 006e 01       		.byte	1
+ 140 006f 40       		.byte	64
+ 141 0070 07       		.byte	7
+ 142 0071 4C       		.byte	76
+ 143 0072 01       		.byte	1
+ 144 0073 40       		.byte	64
+ 145 0074 08       		.byte	8
+ 146 0075 4D       		.byte	77
+ 147 0076 01       		.byte	1
+ 148 0077 40       		.byte	64
+ 149 0078 07       		.byte	7
+ 150 0079 50       		.byte	80
+ 151 007a 01       		.byte	1
+ 152 007b 40       		.byte	64
+ 153 007c 02       		.byte	2
+ 154 007d 51       		.byte	81
+ 155 007e 01       		.byte	1
+ 156 007f 40       		.byte	64
+ 157 0080 00       		.byte	0
+ 158 0081 02       		.byte	2
+ 159 0082 01       		.byte	1
+ 160 0083 02       		.byte	2
+ 161 0084 30       		.byte	48
+ 162 0085 24       		.byte	36
+ 163 0086 31       		.byte	49
+ 164 0087 65       		.byte	101
+ 165 0088 27       		.byte	39
+ 166 0089 84       		.byte	-124
+ 167 008a 84       		.byte	-124
+ 168 008b 01       		.byte	1
+ 169 008c 01       		.byte	1
+ 170 008d 01       		.byte	1
+ 171 008e 05       		.byte	5
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 4
+
+
+ 172 008f 01       		.byte	1
+ 173 0090 09       		.byte	9
+ 174 0091 01       		.byte	1
+ 175 0092 0D       		.byte	13
+ 176 0093 01       		.byte	1
+ 177 0094 13       		.byte	19
+ 178 0095 01       		.byte	1
+ 179 0096 1D       		.byte	29
+ 180 0097 01       		.byte	1
+ 181 0098 29       		.byte	41
+ 182 0099 01       		.byte	1
+ 183 009a 31       		.byte	49
+ 184 009b 01       		.byte	1
+ 185 009c 58       		.byte	88
+ 186 009d 04       		.byte	4
+ 187 009e 59       		.byte	89
+ 188 009f 04       		.byte	4
+ 189 00a0 5F       		.byte	95
+ 190 00a1 01       		.byte	1
+ 191 00a2 D6       		.byte	-42
+ 192 00a3 08       		.byte	8
+ 193 00a4 D8       		.byte	-40
+ 194 00a5 04       		.byte	4
+ 195 00a6 D9       		.byte	-39
+ 196 00a7 04       		.byte	4
+ 197 00a8 DB       		.byte	-37
+ 198 00a9 04       		.byte	4
+ 199 00aa DD       		.byte	-35
+ 200 00ab 90       		.byte	-112
+ 201 00ac DF       		.byte	-33
+ 202 00ad 01       		.byte	1
+ 203 00ae 00       		.byte	0
+ 204 00af 58       		.byte	88
+ 205 00b0 04       		.byte	4
+ 206 00b1 50       		.byte	80
+ 207 00b2 0B       		.byte	11
+ 208 00b3 80       		.byte	-128
+ 209 00b4 0E       		.byte	14
+ 210 00b5 01       		.byte	1
+ 211 00b6 10       		.byte	16
+ 212 00b7 04       		.byte	4
+ 213 00b8 12       		.byte	18
+ 214 00b9 03       		.byte	3
+ 215 00ba 13       		.byte	19
+ 216 00bb 02       		.byte	2
+ 217 00bc 16       		.byte	22
+ 218 00bd 29       		.byte	41
+ 219 00be 17       		.byte	23
+ 220 00bf 02       		.byte	2
+ 221 00c0 21       		.byte	33
+ 222 00c1 01       		.byte	1
+ 223 00c2 28       		.byte	40
+ 224 00c3 04       		.byte	4
+ 225 00c4 2B       		.byte	43
+ 226 00c5 08       		.byte	8
+ 227 00c6 2C       		.byte	44
+ 228 00c7 02       		.byte	2
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 5
+
+
+ 229 00c8 2D       		.byte	45
+ 230 00c9 01       		.byte	1
+ 231 00ca 2E       		.byte	46
+ 232 00cb 21       		.byte	33
+ 233 00cc 2F       		.byte	47
+ 234 00cd 48       		.byte	72
+ 235 00ce 30       		.byte	48
+ 236 00cf 02       		.byte	2
+ 237 00d0 32       		.byte	50
+ 238 00d1 82       		.byte	-126
+ 239 00d2 36       		.byte	54
+ 240 00d3 80       		.byte	-128
+ 241 00d4 38       		.byte	56
+ 242 00d5 50       		.byte	80
+ 243 00d6 39       		.byte	57
+ 244 00d7 01       		.byte	1
+ 245 00d8 3A       		.byte	58
+ 246 00d9 08       		.byte	8
+ 247 00da 3C       		.byte	60
+ 248 00db 58       		.byte	88
+ 249 00dc 3E       		.byte	62
+ 250 00dd 08       		.byte	8
+ 251 00de 5F       		.byte	95
+ 252 00df 80       		.byte	-128
+ 253 00e0 67       		.byte	103
+ 254 00e1 01       		.byte	1
+ 255 00e2 83       		.byte	-125
+ 256 00e3 80       		.byte	-128
+ 257 00e4 8F       		.byte	-113
+ 258 00e5 80       		.byte	-128
+ 259 00e6 C0       		.byte	-64
+ 260 00e7 C7       		.byte	-57
+ 261 00e8 C2       		.byte	-62
+ 262 00e9 88       		.byte	-120
+ 263 00ea C4       		.byte	-60
+ 264 00eb FB       		.byte	-5
+ 265 00ec CA       		.byte	-54
+ 266 00ed B4       		.byte	-76
+ 267 00ee CC       		.byte	-52
+ 268 00ef 19       		.byte	25
+ 269 00f0 CE       		.byte	-50
+ 270 00f1 7F       		.byte	127
+ 271 00f2 D6       		.byte	-42
+ 272 00f3 10       		.byte	16
+ 273 00f4 D8       		.byte	-40
+ 274 00f5 10       		.byte	16
+ 275 00f6 E2       		.byte	-30
+ 276 00f7 40       		.byte	64
+ 277 00f8 03       		.byte	3
+ 278 00f9 02       		.byte	2
+ 279 00fa 14       		.byte	20
+ 280 00fb 01       		.byte	1
+ 281 00fc 1F       		.byte	31
+ 282 00fd 01       		.byte	1
+ 283 00fe 21       		.byte	33
+ 284 00ff 01       		.byte	1
+ 285 0100 2A       		.byte	42
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 6
+
+
+ 286 0101 03       		.byte	3
+ 287 0102 31       		.byte	49
+ 288 0103 03       		.byte	3
+ 289 0104 32       		.byte	50
+ 290 0105 02       		.byte	2
+ 291 0106 33       		.byte	51
+ 292 0107 03       		.byte	3
+ 293 0108 36       		.byte	54
+ 294 0109 01       		.byte	1
+ 295 010a 52       		.byte	82
+ 296 010b 03       		.byte	3
+ 297 010c 53       		.byte	83
+ 298 010d 02       		.byte	2
+ 299 010e 58       		.byte	88
+ 300 010f 0C       		.byte	12
+ 301 0110 59       		.byte	89
+ 302 0111 04       		.byte	4
+ 303 0112 5B       		.byte	91
+ 304 0113 04       		.byte	4
+ 305 0114 5C       		.byte	92
+ 306 0115 90       		.byte	-112
+ 307 0116 5F       		.byte	95
+ 308 0117 01       		.byte	1
+ 309 0118 85       		.byte	-123
+ 310 0119 01       		.byte	1
+ 311 011a 9F       		.byte	-97
+ 312 011b 02       		.byte	2
+ 313 011c A2       		.byte	-94
+ 314 011d 01       		.byte	1
+ 315 011e AD       		.byte	-83
+ 316 011f 01       		.byte	1
+ 317 0120 B2       		.byte	-78
+ 318 0121 01       		.byte	1
+ 319 0122 B5       		.byte	-75
+ 320 0123 01       		.byte	1
+ 321 0124 B7       		.byte	-73
+ 322 0125 02       		.byte	2
+ 323 0126 B9       		.byte	-71
+ 324 0127 20       		.byte	32
+ 325 0128 BF       		.byte	-65
+ 326 0129 10       		.byte	16
+ 327 012a D4       		.byte	-44
+ 328 012b 01       		.byte	1
+ 329 012c D8       		.byte	-40
+ 330 012d 04       		.byte	4
+ 331 012e D9       		.byte	-39
+ 332 012f 04       		.byte	4
+ 333 0130 DB       		.byte	-37
+ 334 0131 0C       		.byte	12
+ 335 0132 DF       		.byte	-33
+ 336 0133 01       		.byte	1
+ 337 0134 00       		.byte	0
+ 338 0135 58       		.byte	88
+ 339 0136 08       		.byte	8
+ 340 0137 10       		.byte	16
+ 341 0138 09       		.byte	9
+ 342 0139 08       		.byte	8
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 7
+
+
+ 343 013a 0B       		.byte	11
+ 344 013b 80       		.byte	-128
+ 345 013c 0E       		.byte	14
+ 346 013d 20       		.byte	32
+ 347 013e 11       		.byte	17
+ 348 013f 01       		.byte	1
+ 349 0140 12       		.byte	18
+ 350 0141 02       		.byte	2
+ 351 0142 17       		.byte	23
+ 352 0143 20       		.byte	32
+ 353 0144 18       		.byte	24
+ 354 0145 10       		.byte	16
+ 355 0146 1D       		.byte	29
+ 356 0147 40       		.byte	64
+ 357 0148 1E       		.byte	30
+ 358 0149 20       		.byte	32
+ 359 014a 1F       		.byte	31
+ 360 014b 80       		.byte	-128
+ 361 014c 20       		.byte	32
+ 362 014d 04       		.byte	4
+ 363 014e 22       		.byte	34
+ 364 014f 80       		.byte	-128
+ 365 0150 23       		.byte	35
+ 366 0151 02       		.byte	2
+ 367 0152 27       		.byte	39
+ 368 0153 A0       		.byte	-96
+ 369 0154 28       		.byte	40
+ 370 0155 02       		.byte	2
+ 371 0156 2A       		.byte	42
+ 372 0157 08       		.byte	8
+ 373 0158 2B       		.byte	43
+ 374 0159 08       		.byte	8
+ 375 015a 2F       		.byte	47
+ 376 015b 80       		.byte	-128
+ 377 015c 30       		.byte	48
+ 378 015d 10       		.byte	16
+ 379 015e 31       		.byte	49
+ 380 015f 80       		.byte	-128
+ 381 0160 32       		.byte	50
+ 382 0161 02       		.byte	2
+ 383 0162 33       		.byte	51
+ 384 0163 20       		.byte	32
+ 385 0164 37       		.byte	55
+ 386 0165 80       		.byte	-128
+ 387 0166 38       		.byte	56
+ 388 0167 18       		.byte	24
+ 389 0168 3A       		.byte	58
+ 390 0169 01       		.byte	1
+ 391 016a 3B       		.byte	59
+ 392 016b 80       		.byte	-128
+ 393 016c 3F       		.byte	63
+ 394 016d 01       		.byte	1
+ 395 016e 59       		.byte	89
+ 396 016f 40       		.byte	64
+ 397 0170 6C       		.byte	108
+ 398 0171 04       		.byte	4
+ 399 0172 6D       		.byte	109
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 8
+
+
+ 400 0173 40       		.byte	64
+ 401 0174 6E       		.byte	110
+ 402 0175 10       		.byte	16
+ 403 0176 79       		.byte	121
+ 404 0177 40       		.byte	64
+ 405 0178 7D       		.byte	125
+ 406 0179 40       		.byte	64
+ 407 017a 93       		.byte	-109
+ 408 017b 01       		.byte	1
+ 409 017c 94       		.byte	-108
+ 410 017d 50       		.byte	80
+ 411 017e 97       		.byte	-105
+ 412 017f 80       		.byte	-128
+ 413 0180 9A       		.byte	-102
+ 414 0181 08       		.byte	8
+ 415 0182 9F       		.byte	-97
+ 416 0183 02       		.byte	2
+ 417 0184 A4       		.byte	-92
+ 418 0185 04       		.byte	4
+ 419 0186 A6       		.byte	-90
+ 420 0187 82       		.byte	-126
+ 421 0188 A7       		.byte	-89
+ 422 0189 88       		.byte	-120
+ 423 018a AD       		.byte	-83
+ 424 018b 01       		.byte	1
+ 425 018c C0       		.byte	-64
+ 426 018d 07       		.byte	7
+ 427 018e C2       		.byte	-62
+ 428 018f 2E       		.byte	46
+ 429 0190 C4       		.byte	-60
+ 430 0191 49       		.byte	73
+ 431 0192 CA       		.byte	-54
+ 432 0193 8E       		.byte	-114
+ 433 0194 CC       		.byte	-52
+ 434 0195 1D       		.byte	29
+ 435 0196 CE       		.byte	-50
+ 436 0197 8F       		.byte	-113
+ 437 0198 D6       		.byte	-42
+ 438 0199 08       		.byte	8
+ 439 019a DE       		.byte	-34
+ 440 019b 18       		.byte	24
+ 441 019c 02       		.byte	2
+ 442 019d 02       		.byte	2
+ 443 019e 03       		.byte	3
+ 444 019f 04       		.byte	4
+ 445 01a0 04       		.byte	4
+ 446 01a1 40       		.byte	64
+ 447 01a2 06       		.byte	6
+ 448 01a3 80       		.byte	-128
+ 449 01a4 07       		.byte	7
+ 450 01a5 08       		.byte	8
+ 451 01a6 09       		.byte	9
+ 452 01a7 04       		.byte	4
+ 453 01a8 0A       		.byte	10
+ 454 01a9 04       		.byte	4
+ 455 01aa 0C       		.byte	12
+ 456 01ab 10       		.byte	16
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 9
+
+
+ 457 01ac 0D       		.byte	13
+ 458 01ad 01       		.byte	1
+ 459 01ae 0E       		.byte	14
+ 460 01af 20       		.byte	32
+ 461 01b0 12       		.byte	18
+ 462 01b1 01       		.byte	1
+ 463 01b2 15       		.byte	21
+ 464 01b3 08       		.byte	8
+ 465 01b4 16       		.byte	22
+ 466 01b5 08       		.byte	8
+ 467 01b6 18       		.byte	24
+ 468 01b7 01       		.byte	1
+ 469 01b8 1B       		.byte	27
+ 470 01b9 01       		.byte	1
+ 471 01ba 1C       		.byte	28
+ 472 01bb 02       		.byte	2
+ 473 01bc 1F       		.byte	31
+ 474 01bd 02       		.byte	2
+ 475 01be 20       		.byte	32
+ 476 01bf 04       		.byte	4
+ 477 01c0 24       		.byte	36
+ 478 01c1 08       		.byte	8
+ 479 01c2 25       		.byte	37
+ 480 01c3 02       		.byte	2
+ 481 01c4 28       		.byte	40
+ 482 01c5 20       		.byte	32
+ 483 01c6 2A       		.byte	42
+ 484 01c7 10       		.byte	16
+ 485 01c8 2C       		.byte	44
+ 486 01c9 80       		.byte	-128
+ 487 01ca 2E       		.byte	46
+ 488 01cb 40       		.byte	64
+ 489 01cc 2F       		.byte	47
+ 490 01cd 10       		.byte	16
+ 491 01ce 31       		.byte	49
+ 492 01cf 1F       		.byte	31
+ 493 01d0 36       		.byte	54
+ 494 01d1 FF       		.byte	-1
+ 495 01d2 39       		.byte	57
+ 496 01d3 02       		.byte	2
+ 497 01d4 3E       		.byte	62
+ 498 01d5 40       		.byte	64
+ 499 01d6 3F       		.byte	63
+ 500 01d7 01       		.byte	1
+ 501 01d8 56       		.byte	86
+ 502 01d9 02       		.byte	2
+ 503 01da 57       		.byte	87
+ 504 01db 35       		.byte	53
+ 505 01dc 58       		.byte	88
+ 506 01dd 04       		.byte	4
+ 507 01de 59       		.byte	89
+ 508 01df 04       		.byte	4
+ 509 01e0 5B       		.byte	91
+ 510 01e1 0C       		.byte	12
+ 511 01e2 5F       		.byte	95
+ 512 01e3 01       		.byte	1
+ 513 01e4 D8       		.byte	-40
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 10
+
+
+ 514 01e5 04       		.byte	4
+ 515 01e6 D9       		.byte	-39
+ 516 01e7 04       		.byte	4
+ 517 01e8 DF       		.byte	-33
+ 518 01e9 01       		.byte	1
+ 519 01ea 00       		.byte	0
+ 520 01eb 58       		.byte	88
+ 521 01ec 02       		.byte	2
+ 522 01ed D1       		.byte	-47
+ 523 01ee 04       		.byte	4
+ 524 01ef 50       		.byte	80
+ 525 01f0 06       		.byte	6
+ 526 01f1 10       		.byte	16
+ 527 01f2 09       		.byte	9
+ 528 01f3 88       		.byte	-120
+ 529 01f4 0A       		.byte	10
+ 530 01f5 04       		.byte	4
+ 531 01f6 0B       		.byte	11
+ 532 01f7 40       		.byte	64
+ 533 01f8 0D       		.byte	13
+ 534 01f9 08       		.byte	8
+ 535 01fa 0F       		.byte	15
+ 536 01fb 40       		.byte	64
+ 537 01fc 10       		.byte	16
+ 538 01fd 0A       		.byte	10
+ 539 01fe 11       		.byte	17
+ 540 01ff 05       		.byte	5
+ 541 0200 16       		.byte	22
+ 542 0201 40       		.byte	64
+ 543 0202 17       		.byte	23
+ 544 0203 80       		.byte	-128
+ 545 0204 19       		.byte	25
+ 546 0205 40       		.byte	64
+ 547 0206 22       		.byte	34
+ 548 0207 02       		.byte	2
+ 549 0208 23       		.byte	35
+ 550 0209 80       		.byte	-128
+ 551 020a 29       		.byte	41
+ 552 020b 40       		.byte	64
+ 553 020c 2A       		.byte	42
+ 554 020d 11       		.byte	17
+ 555 020e 2B       		.byte	43
+ 556 020f 20       		.byte	32
+ 557 0210 2F       		.byte	47
+ 558 0211 68       		.byte	104
+ 559 0212 31       		.byte	49
+ 560 0213 98       		.byte	-104
+ 561 0214 32       		.byte	50
+ 562 0215 02       		.byte	2
+ 563 0216 33       		.byte	51
+ 564 0217 08       		.byte	8
+ 565 0218 37       		.byte	55
+ 566 0219 80       		.byte	-128
+ 567 021a 38       		.byte	56
+ 568 021b 10       		.byte	16
+ 569 021c 39       		.byte	57
+ 570 021d 05       		.byte	5
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 11
+
+
+ 571 021e 3B       		.byte	59
+ 572 021f C0       		.byte	-64
+ 573 0220 3C       		.byte	60
+ 574 0221 58       		.byte	88
+ 575 0222 5A       		.byte	90
+ 576 0223 10       		.byte	16
+ 577 0224 60       		.byte	96
+ 578 0225 04       		.byte	4
+ 579 0226 68       		.byte	104
+ 580 0227 0A       		.byte	10
+ 581 0228 69       		.byte	105
+ 582 0229 05       		.byte	5
+ 583 022a 6A       		.byte	106
+ 584 022b 80       		.byte	-128
+ 585 022c 71       		.byte	113
+ 586 022d 90       		.byte	-112
+ 587 022e 72       		.byte	114
+ 588 022f 04       		.byte	4
+ 589 0230 79       		.byte	121
+ 590 0231 40       		.byte	64
+ 591 0232 82       		.byte	-126
+ 592 0233 80       		.byte	-128
+ 593 0234 83       		.byte	-125
+ 594 0235 20       		.byte	32
+ 595 0236 90       		.byte	-112
+ 596 0237 14       		.byte	20
+ 597 0238 91       		.byte	-111
+ 598 0239 40       		.byte	64
+ 599 023a 92       		.byte	-110
+ 600 023b 10       		.byte	16
+ 601 023c 94       		.byte	-108
+ 602 023d 40       		.byte	64
+ 603 023e 95       		.byte	-107
+ 604 023f 01       		.byte	1
+ 605 0240 97       		.byte	-105
+ 606 0241 80       		.byte	-128
+ 607 0242 9C       		.byte	-100
+ 608 0243 02       		.byte	2
+ 609 0244 9E       		.byte	-98
+ 610 0245 01       		.byte	1
+ 611 0246 A2       		.byte	-94
+ 612 0247 80       		.byte	-128
+ 613 0248 A4       		.byte	-92
+ 614 0249 04       		.byte	4
+ 615 024a A5       		.byte	-91
+ 616 024b 88       		.byte	-120
+ 617 024c A6       		.byte	-90
+ 618 024d 02       		.byte	2
+ 619 024e A7       		.byte	-89
+ 620 024f 28       		.byte	40
+ 621 0250 C0       		.byte	-64
+ 622 0251 EF       		.byte	-17
+ 623 0252 C2       		.byte	-62
+ 624 0253 3F       		.byte	63
+ 625 0254 C4       		.byte	-60
+ 626 0255 9F       		.byte	-97
+ 627 0256 CA       		.byte	-54
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 12
+
+
+ 628 0257 EF       		.byte	-17
+ 629 0258 CC       		.byte	-52
+ 630 0259 1F       		.byte	31
+ 631 025a CE       		.byte	-50
+ 632 025b 7F       		.byte	127
+ 633 025c D6       		.byte	-42
+ 634 025d 04       		.byte	4
+ 635 025e D8       		.byte	-40
+ 636 025f 04       		.byte	4
+ 637 0260 DE       		.byte	-34
+ 638 0261 08       		.byte	8
+ 639 0262 58       		.byte	88
+ 640 0263 04       		.byte	4
+ 641 0264 59       		.byte	89
+ 642 0265 04       		.byte	4
+ 643 0266 5F       		.byte	95
+ 644 0267 01       		.byte	1
+ 645 0268 87       		.byte	-121
+ 646 0269 04       		.byte	4
+ 647 026a 9F       		.byte	-97
+ 648 026b 01       		.byte	1
+ 649 026c AA       		.byte	-86
+ 650 026d 01       		.byte	1
+ 651 026e AB       		.byte	-85
+ 652 026f 02       		.byte	2
+ 653 0270 B0       		.byte	-80
+ 654 0271 01       		.byte	1
+ 655 0272 B1       		.byte	-79
+ 656 0273 02       		.byte	2
+ 657 0274 B3       		.byte	-77
+ 658 0275 04       		.byte	4
+ 659 0276 B5       		.byte	-75
+ 660 0277 01       		.byte	1
+ 661 0278 D8       		.byte	-40
+ 662 0279 04       		.byte	4
+ 663 027a D9       		.byte	-39
+ 664 027b 04       		.byte	4
+ 665 027c DF       		.byte	-33
+ 666 027d 01       		.byte	1
+ 667 027e 00       		.byte	0
+ 668 027f 54       		.byte	84
+ 669 0280 02       		.byte	2
+ 670 0281 80       		.byte	-128
+ 671 0282 04       		.byte	4
+ 672 0283 54       		.byte	84
+ 673 0284 05       		.byte	5
+ 674 0285 02       		.byte	2
+ 675 0286 09       		.byte	9
+ 676 0287 08       		.byte	8
+ 677 0288 0A       		.byte	10
+ 678 0289 02       		.byte	2
+ 679 028a 0D       		.byte	13
+ 680 028b 08       		.byte	8
+ 681 028c 0F       		.byte	15
+ 682 028d 40       		.byte	64
+ 683 028e 10       		.byte	16
+ 684 028f 08       		.byte	8
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 13
+
+
+ 685 0290 12       		.byte	18
+ 686 0291 02       		.byte	2
+ 687 0292 14       		.byte	20
+ 688 0293 80       		.byte	-128
+ 689 0294 18       		.byte	24
+ 690 0295 40       		.byte	64
+ 691 0296 20       		.byte	32
+ 692 0297 0C       		.byte	12
+ 693 0298 21       		.byte	33
+ 694 0299 09       		.byte	9
+ 695 029a 22       		.byte	34
+ 696 029b 19       		.byte	25
+ 697 029c 23       		.byte	35
+ 698 029d 40       		.byte	64
+ 699 029e 28       		.byte	40
+ 700 029f 80       		.byte	-128
+ 701 02a0 29       		.byte	41
+ 702 02a1 10       		.byte	16
+ 703 02a2 2F       		.byte	47
+ 704 02a3 40       		.byte	64
+ 705 02a4 31       		.byte	49
+ 706 02a5 08       		.byte	8
+ 707 02a6 32       		.byte	50
+ 708 02a7 52       		.byte	82
+ 709 02a8 34       		.byte	52
+ 710 02a9 80       		.byte	-128
+ 711 02aa 35       		.byte	53
+ 712 02ab 02       		.byte	2
+ 713 02ac 36       		.byte	54
+ 714 02ad 8A       		.byte	-118
+ 715 02ae 38       		.byte	56
+ 716 02af 50       		.byte	80
+ 717 02b0 39       		.byte	57
+ 718 02b1 06       		.byte	6
+ 719 02b2 3C       		.byte	60
+ 720 02b3 58       		.byte	88
+ 721 02b4 90       		.byte	-112
+ 722 02b5 10       		.byte	16
+ 723 02b6 91       		.byte	-111
+ 724 02b7 04       		.byte	4
+ 725 02b8 92       		.byte	-110
+ 726 02b9 80       		.byte	-128
+ 727 02ba 93       		.byte	-109
+ 728 02bb 80       		.byte	-128
+ 729 02bc 94       		.byte	-108
+ 730 02bd 40       		.byte	64
+ 731 02be 97       		.byte	-105
+ 732 02bf 40       		.byte	64
+ 733 02c0 99       		.byte	-103
+ 734 02c1 10       		.byte	16
+ 735 02c2 A0       		.byte	-96
+ 736 02c3 08       		.byte	8
+ 737 02c4 A2       		.byte	-94
+ 738 02c5 82       		.byte	-126
+ 739 02c6 A4       		.byte	-92
+ 740 02c7 04       		.byte	4
+ 741 02c8 A5       		.byte	-91
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 14
+
+
+ 742 02c9 08       		.byte	8
+ 743 02ca B4       		.byte	-76
+ 744 02cb 02       		.byte	2
+ 745 02cc C0       		.byte	-64
+ 746 02cd FF       		.byte	-1
+ 747 02ce C2       		.byte	-62
+ 748 02cf 35       		.byte	53
+ 749 02d0 C4       		.byte	-60
+ 750 02d1 13       		.byte	19
+ 751 02d2 CA       		.byte	-54
+ 752 02d3 85       		.byte	-123
+ 753 02d4 CC       		.byte	-52
+ 754 02d5 DF       		.byte	-33
+ 755 02d6 CE       		.byte	-50
+ 756 02d7 7F       		.byte	127
+ 757 02d8 EE       		.byte	-18
+ 758 02d9 04       		.byte	4
+ 759 02da EA       		.byte	-22
+ 760 02db 10       		.byte	16
+ 761 02dc EE       		.byte	-18
+ 762 02dd 04       		.byte	4
+ 763 02de 58       		.byte	88
+ 764 02df 04       		.byte	4
+ 765 02e0 59       		.byte	89
+ 766 02e1 04       		.byte	4
+ 767 02e2 5B       		.byte	91
+ 768 02e3 04       		.byte	4
+ 769 02e4 5F       		.byte	95
+ 770 02e5 01       		.byte	1
+ 771 02e6 D8       		.byte	-40
+ 772 02e7 04       		.byte	4
+ 773 02e8 D9       		.byte	-39
+ 774 02e9 04       		.byte	4
+ 775 02ea DF       		.byte	-33
+ 776 02eb 01       		.byte	1
+ 777 02ec 00       		.byte	0
+ 778 02ed 54       		.byte	84
+ 779 02ee 02       		.byte	2
+ 780 02ef C0       		.byte	-64
+ 781 02f0 04       		.byte	4
+ 782 02f1 54       		.byte	84
+ 783 02f2 06       		.byte	6
+ 784 02f3 80       		.byte	-128
+ 785 02f4 0A       		.byte	10
+ 786 02f5 02       		.byte	2
+ 787 02f6 0D       		.byte	13
+ 788 02f7 02       		.byte	2
+ 789 02f8 10       		.byte	16
+ 790 02f9 01       		.byte	1
+ 791 02fa 11       		.byte	17
+ 792 02fb 40       		.byte	64
+ 793 02fc 12       		.byte	18
+ 794 02fd 0A       		.byte	10
+ 795 02fe 16       		.byte	22
+ 796 02ff 40       		.byte	64
+ 797 0300 17       		.byte	23
+ 798 0301 08       		.byte	8
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 15
+
+
+ 799 0302 28       		.byte	40
+ 800 0303 41       		.byte	65
+ 801 0304 2D       		.byte	45
+ 802 0305 40       		.byte	64
+ 803 0306 2E       		.byte	46
+ 804 0307 80       		.byte	-128
+ 805 0308 31       		.byte	49
+ 806 0309 02       		.byte	2
+ 807 030a 32       		.byte	50
+ 808 030b 09       		.byte	9
+ 809 030c 33       		.byte	51
+ 810 030d 01       		.byte	1
+ 811 030e 34       		.byte	52
+ 812 030f 40       		.byte	64
+ 813 0310 36       		.byte	54
+ 814 0311 88       		.byte	-120
+ 815 0312 37       		.byte	55
+ 816 0313 09       		.byte	9
+ 817 0314 38       		.byte	56
+ 818 0315 54       		.byte	84
+ 819 0316 3C       		.byte	60
+ 820 0317 54       		.byte	84
+ 821 0318 69       		.byte	105
+ 822 0319 10       		.byte	16
+ 823 031a 6A       		.byte	106
+ 824 031b 48       		.byte	72
+ 825 031c 6B       		.byte	107
+ 826 031d 80       		.byte	-128
+ 827 031e 89       		.byte	-119
+ 828 031f 10       		.byte	16
+ 829 0320 8E       		.byte	-114
+ 830 0321 40       		.byte	64
+ 831 0322 90       		.byte	-112
+ 832 0323 54       		.byte	84
+ 833 0324 92       		.byte	-110
+ 834 0325 02       		.byte	2
+ 835 0326 96       		.byte	-106
+ 836 0327 08       		.byte	8
+ 837 0328 9F       		.byte	-97
+ 838 0329 80       		.byte	-128
+ 839 032a A2       		.byte	-94
+ 840 032b 8A       		.byte	-118
+ 841 032c C0       		.byte	-64
+ 842 032d FF       		.byte	-1
+ 843 032e C2       		.byte	-62
+ 844 032f 11       		.byte	17
+ 845 0330 C4       		.byte	-60
+ 846 0331 33       		.byte	51
+ 847 0332 CA       		.byte	-54
+ 848 0333 19       		.byte	25
+ 849 0334 CC       		.byte	-52
+ 850 0335 D3       		.byte	-45
+ 851 0336 CE       		.byte	-50
+ 852 0337 7E       		.byte	126
+ 853 0338 E8       		.byte	-24
+ 854 0339 10       		.byte	16
+ 855 033a 58       		.byte	88
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 16
+
+
+ 856 033b 04       		.byte	4
+ 857 033c 59       		.byte	89
+ 858 033d 04       		.byte	4
+ 859 033e 5F       		.byte	95
+ 860 033f 01       		.byte	1
+ 861 0340 80       		.byte	-128
+ 862 0341 01       		.byte	1
+ 863 0342 86       		.byte	-122
+ 864 0343 01       		.byte	1
+ 865 0344 88       		.byte	-120
+ 866 0345 01       		.byte	1
+ 867 0346 8C       		.byte	-116
+ 868 0347 01       		.byte	1
+ 869 0348 9C       		.byte	-100
+ 870 0349 01       		.byte	1
+ 871 034a A8       		.byte	-88
+ 872 034b 01       		.byte	1
+ 873 034c AE       		.byte	-82
+ 874 034d 01       		.byte	1
+ 875 034e B4       		.byte	-76
+ 876 034f 01       		.byte	1
+ 877 0350 D8       		.byte	-40
+ 878 0351 04       		.byte	4
+ 879 0352 D9       		.byte	-39
+ 880 0353 04       		.byte	4
+ 881 0354 DF       		.byte	-33
+ 882 0355 01       		.byte	1
+ 883 0356 00       		.byte	0
+ 884 0357 54       		.byte	84
+ 885 0358 02       		.byte	2
+ 886 0359 C0       		.byte	-64
+ 887 035a 04       		.byte	4
+ 888 035b 54       		.byte	84
+ 889 035c 06       		.byte	6
+ 890 035d 80       		.byte	-128
+ 891 035e 0A       		.byte	10
+ 892 035f 02       		.byte	2
+ 893 0360 0D       		.byte	13
+ 894 0361 08       		.byte	8
+ 895 0362 0F       		.byte	15
+ 896 0363 40       		.byte	64
+ 897 0364 10       		.byte	16
+ 898 0365 01       		.byte	1
+ 899 0366 11       		.byte	17
+ 900 0367 40       		.byte	64
+ 901 0368 12       		.byte	18
+ 902 0369 0A       		.byte	10
+ 903 036a 16       		.byte	22
+ 904 036b 40       		.byte	64
+ 905 036c 1B       		.byte	27
+ 906 036d 20       		.byte	32
+ 907 036e 28       		.byte	40
+ 908 036f 01       		.byte	1
+ 909 0370 2D       		.byte	45
+ 910 0371 40       		.byte	64
+ 911 0372 2E       		.byte	46
+ 912 0373 80       		.byte	-128
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 17
+
+
+ 913 0374 31       		.byte	49
+ 914 0375 08       		.byte	8
+ 915 0376 32       		.byte	50
+ 916 0377 81       		.byte	-127
+ 917 0378 33       		.byte	51
+ 918 0379 01       		.byte	1
+ 919 037a 36       		.byte	54
+ 920 037b 88       		.byte	-120
+ 921 037c 37       		.byte	55
+ 922 037d 01       		.byte	1
+ 923 037e 38       		.byte	56
+ 924 037f 54       		.byte	84
+ 925 0380 3C       		.byte	60
+ 926 0381 54       		.byte	84
+ 927 0382 83       		.byte	-125
+ 928 0383 20       		.byte	32
+ 929 0384 86       		.byte	-122
+ 930 0385 04       		.byte	4
+ 931 0386 90       		.byte	-112
+ 932 0387 54       		.byte	84
+ 933 0388 92       		.byte	-110
+ 934 0389 02       		.byte	2
+ 935 038a 93       		.byte	-109
+ 936 038b 40       		.byte	64
+ 937 038c 9F       		.byte	-97
+ 938 038d 80       		.byte	-128
+ 939 038e A1       		.byte	-95
+ 940 038f 08       		.byte	8
+ 941 0390 A2       		.byte	-94
+ 942 0391 8A       		.byte	-118
+ 943 0392 AF       		.byte	-81
+ 944 0393 80       		.byte	-128
+ 945 0394 C0       		.byte	-64
+ 946 0395 FF       		.byte	-1
+ 947 0396 C2       		.byte	-62
+ 948 0397 31       		.byte	49
+ 949 0398 C4       		.byte	-60
+ 950 0399 13       		.byte	19
+ 951 039a CA       		.byte	-54
+ 952 039b 18       		.byte	24
+ 953 039c CC       		.byte	-52
+ 954 039d DB       		.byte	-37
+ 955 039e CE       		.byte	-50
+ 956 039f 7E       		.byte	126
+ 957 03a0 E4       		.byte	-28
+ 958 03a1 0C       		.byte	12
+ 959 03a2 E8       		.byte	-24
+ 960 03a3 02       		.byte	2
+ 961 03a4 E4       		.byte	-28
+ 962 03a5 0C       		.byte	12
+ 963 03a6 E8       		.byte	-24
+ 964 03a7 02       		.byte	2
+ 965 03a8 E0       		.byte	-32
+ 966 03a9 80       		.byte	-128
+ 967 03aa E4       		.byte	-28
+ 968 03ab 40       		.byte	64
+ 969 03ac E8       		.byte	-24
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 18
+
+
+ 970 03ad 10       		.byte	16
+ 971 03ae 13       		.byte	19
+ 972 03af 01       		.byte	1
+ 973 03b0 16       		.byte	22
+ 974 03b1 80       		.byte	-128
+ 975 03b2 33       		.byte	51
+ 976 03b3 20       		.byte	32
+ 977 03b4 3B       		.byte	59
+ 978 03b5 02       		.byte	2
+ 979 03b6 3E       		.byte	62
+ 980 03b7 80       		.byte	-128
+ 981 03b8 83       		.byte	-125
+ 982 03b9 01       		.byte	1
+ 983 03ba 8F       		.byte	-113
+ 984 03bb 20       		.byte	32
+ 985 03bc C4       		.byte	-60
+ 986 03bd 30       		.byte	48
+ 987 03be CC       		.byte	-52
+ 988 03bf 10       		.byte	16
+ 989 03c0 CE       		.byte	-50
+ 990 03c1 60       		.byte	96
+ 991 03c2 E0       		.byte	-32
+ 992 03c3 80       		.byte	-128
+ 993 03c4 5F       		.byte	95
+ 994 03c5 40       		.byte	64
+ 995 03c6 93       		.byte	-109
+ 996 03c7 40       		.byte	64
+ 997 03c8 97       		.byte	-105
+ 998 03c9 02       		.byte	2
+ 999 03ca AF       		.byte	-81
+ 1000 03cb 40       		.byte	64
+ 1001 03cc D6       		.byte	-42
+ 1002 03cd 20       		.byte	32
+ 1003 03ce EE       		.byte	-18
+ 1004 03cf 40       		.byte	64
+ 1005 03d0 97       		.byte	-105
+ 1006 03d1 02       		.byte	2
+ 1007 03d2 AB       		.byte	-85
+ 1008 03d3 01       		.byte	1
+ 1009 03d4 EE       		.byte	-18
+ 1010 03d5 20       		.byte	32
+ 1011 03d6 50       		.byte	80
+ 1012 03d7 20       		.byte	32
+ 1013 03d8 58       		.byte	88
+ 1014 03d9 40       		.byte	64
+ 1015 03da 5D       		.byte	93
+ 1016 03db 10       		.byte	16
+ 1017 03dc 60       		.byte	96
+ 1018 03dd 04       		.byte	4
+ 1019 03de 65       		.byte	101
+ 1020 03df 02       		.byte	2
+ 1021 03e0 D4       		.byte	-44
+ 1022 03e1 05       		.byte	5
+ 1023 03e2 D6       		.byte	-42
+ 1024 03e3 04       		.byte	4
+ 1025 03e4 D8       		.byte	-40
+ 1026 03e5 03       		.byte	3
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 19
+
+
+ 1027 03e6 94       		.byte	-108
+ 1028 03e7 04       		.byte	4
+ 1029 03e8 95       		.byte	-107
+ 1030 03e9 10       		.byte	16
+ 1031 03ea 9C       		.byte	-100
+ 1032 03eb 40       		.byte	64
+ 1033 03ec 9D       		.byte	-99
+ 1034 03ed 02       		.byte	2
+ 1035 03ee A4       		.byte	-92
+ 1036 03ef 20       		.byte	32
+ 1037 03f0 1B       		.byte	27
+ 1038 03f1 04       		.byte	4
+ 1039 03f2 24       		.byte	36
+ 1040 03f3 10       		.byte	16
+ 1041 03f4 94       		.byte	-108
+ 1042 03f5 04       		.byte	4
+ 1043 03f6 95       		.byte	-107
+ 1044 03f7 10       		.byte	16
+ 1045 03f8 9C       		.byte	-100
+ 1046 03f9 40       		.byte	64
+ 1047 03fa 9D       		.byte	-99
+ 1048 03fb 02       		.byte	2
+ 1049 03fc A4       		.byte	-92
+ 1050 03fd 20       		.byte	32
+ 1051 03fe C6       		.byte	-58
+ 1052 03ff 08       		.byte	8
+ 1053 0400 C8       		.byte	-56
+ 1054 0401 01       		.byte	1
+ 1055 0402 44       		.byte	68
+ 1056 0403 02       		.byte	2
+ 1057 0404 94       		.byte	-108
+ 1058 0405 04       		.byte	4
+ 1059 0406 95       		.byte	-107
+ 1060 0407 10       		.byte	16
+ 1061 0408 9C       		.byte	-100
+ 1062 0409 40       		.byte	64
+ 1063 040a 9D       		.byte	-99
+ 1064 040b 02       		.byte	2
+ 1065 040c A4       		.byte	-92
+ 1066 040d 20       		.byte	32
+ 1067 040e AB       		.byte	-85
+ 1068 040f 04       		.byte	4
+ 1069 0410 B4       		.byte	-76
+ 1070 0411 10       		.byte	16
+ 1071 0412 D0       		.byte	-48
+ 1072 0413 04       		.byte	4
+ 1073 0414 EA       		.byte	-22
+ 1074 0415 08       		.byte	8
+ 1075 0416 24       		.byte	36
+ 1076 0417 08       		.byte	8
+ 1077 0418 C8       		.byte	-56
+ 1078 0419 20       		.byte	32
+ 1079 041a B4       		.byte	-76
+ 1080 041b 04       		.byte	4
+ 1081 041c 81       		.byte	-127
+ 1082 041d 02       		.byte	2
+ 1083 041e 85       		.byte	-123
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 20
+
+
+ 1084 041f 10       		.byte	16
+ 1085 0420 94       		.byte	-108
+ 1086 0421 04       		.byte	4
+ 1087 0422 95       		.byte	-107
+ 1088 0423 10       		.byte	16
+ 1089 0424 9C       		.byte	-100
+ 1090 0425 42       		.byte	66
+ 1091 0426 9D       		.byte	-99
+ 1092 0427 02       		.byte	2
+ 1093 0428 AC       		.byte	-84
+ 1094 0429 20       		.byte	32
+ 1095 042a 88       		.byte	-120
+ 1096 042b 40       		.byte	64
+ 1097 042c 8C       		.byte	-116
+ 1098 042d 04       		.byte	4
+ 1099 042e 94       		.byte	-108
+ 1100 042f 04       		.byte	4
+ 1101 0430 9C       		.byte	-100
+ 1102 0431 40       		.byte	64
+ 1103 0432 B4       		.byte	-76
+ 1104 0433 02       		.byte	2
+ 1105 0434 E0       		.byte	-32
+ 1106 0435 01       		.byte	1
+ 1107 0436 E4       		.byte	-28
+ 1108 0437 02       		.byte	2
+ 1109 0438 E8       		.byte	-24
+ 1110 0439 08       		.byte	8
+ 1111 043a 00       		.byte	0
+ 1112 043b 01       		.byte	1
+ 1113 043c 01       		.byte	1
+ 1114 043d 01       		.byte	1
+ 1115 043e 08       		.byte	8
+ 1116 043f 01       		.byte	1
+ 1117 0440 09       		.byte	9
+ 1118 0441 01       		.byte	1
+ 1119 0442 0A       		.byte	10
+ 1120 0443 01       		.byte	1
+ 1121 0444 10       		.byte	16
+ 1122 0445 01       		.byte	1
+ 1123 0446 1A       		.byte	26
+ 1124 0447 01       		.byte	1
+ 1125 0448 00       		.byte	0
+ 1126 0449 03       		.byte	3
+ 1127 044a 10       		.byte	16
+ 1128 044b 0A       		.byte	10
+ 1129 044c 00       		.byte	0
+ 1130 044d 00       		.byte	0
+ 1131 044e 00       		.byte	0
+ 1132 044f 00       		.byte	0
+ 1133 0450 00       		.byte	0
+ 1134 0451 02       		.byte	2
+ 1135 0452 03       		.byte	3
+ 1136 0453 00       		.byte	0
+ 1137 0454 00       		.byte	0
+ 1138 0455 0B       		.byte	11
+ 1139 0456 0B       		.byte	11
+ 1140 0457 00       		.byte	0
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 21
+
+
+ 1141 0458 00       		.byte	0
+ 1142 0459 00       		.byte	0
+ 1143 045a 00       		.byte	0
+ 1144 045b 00       		.byte	0
+ 1145 045c 00       		.byte	0
+ 1146 045d 7F       		.byte	127
+ 1147 045e 7F       		.byte	127
+ 1148 045f 00       		.byte	0
+ 1149 0460 00       		.byte	0
+ 1150 0461 00       		.byte	0
+ 1151 0462 00       		.byte	0
+ 1152 0463 00       		.byte	0
+ 1153 0464 00       		.byte	0
+ 1154 0465 4D       		.byte	77
+ 1155 0466 4D       		.byte	77
+ 1156 0467 00       		.byte	0
+ 1157 0468 4D       		.byte	77
+ 1158 0469 20       		.byte	32
+ 1159 046a 20       		.byte	32
+ 1160 046b 00       		.byte	0
+ 1161 046c 00       		.byte	0
+ 1162 046d 01       		.byte	1
+ 1163 046e 00       		.byte	0
+ 1164 046f 00       		.byte	0
+ 1165              		.section	.cywolatch,"a",%progbits
+ 1166              		.align	2
+ 1167              		.type	cy_meta_wonvl, %object
+ 1168              		.size	cy_meta_wonvl, 4
+ 1169              	cy_meta_wonvl:
+ 1170 0000 BC       		.byte	-68
+ 1171 0001 90       		.byte	-112
+ 1172 0002 AC       		.byte	-84
+ 1173 0003 AF       		.byte	-81
+ 1174              		.section	.cycustnvl,"a",%progbits
+ 1175              		.align	2
+ 1176              		.type	cy_meta_custnvl, %object
+ 1177              		.size	cy_meta_custnvl, 4
+ 1178              	cy_meta_custnvl:
+ 1179 0000 00       		.byte	0
+ 1180 0001 00       		.byte	0
+ 1181 0002 40       		.byte	64
+ 1182 0003 05       		.byte	5
+ 1183              		.section	.cymeta,"a",%progbits
+ 1184              		.align	2
+ 1185              		.type	cy_metadata, %object
+ 1186              		.size	cy_metadata, 12
+ 1187              	cy_metadata:
+ 1188 0000 00       		.byte	0
+ 1189 0001 01       		.byte	1
+ 1190 0002 2E       		.byte	46
+ 1191 0003 12       		.byte	18
+ 1192 0004 30       		.byte	48
+ 1193 0005 69       		.byte	105
+ 1194 0006 00       		.byte	0
+ 1195 0007 01       		.byte	1
+ 1196 0008 00       		.byte	0
+ 1197 0009 00       		.byte	0
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 22
+
+
+ 1198 000a 00       		.byte	0
+ 1199 000b 00       		.byte	0
+ 1200              		.section	.cyflashprotect,"a",%progbits
+ 1201              		.align	2
+ 1202              		.type	cy_meta_flashprotect, %object
+ 1203              		.size	cy_meta_flashprotect, 256
+ 1204              	cy_meta_flashprotect:
+ 1205 0000 00000000 		.space	256
+ 1205      00000000 
+ 1205      00000000 
+ 1205      00000000 
+ 1205      00000000 
+ 1206              		.text
+ 1207              	.Letext0:
+ 1208              		.file 1 "d:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 1209              		.file 2 "d:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 1210              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 1211              		.section	.debug_info,"",%progbits
+ 1212              	.Ldebug_info0:
+ 1213 0000 32010000 		.4byte	0x132
+ 1214 0004 0400     		.2byte	0x4
+ 1215 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 1216 000a 04       		.byte	0x4
+ 1217 000b 01       		.uleb128 0x1
+ 1218 000c 24000000 		.4byte	.LASF17
+ 1219 0010 0C       		.byte	0xc
+ 1220 0011 D1010000 		.4byte	.LASF18
+ 1221 0015 5F010000 		.4byte	.LASF19
+ 1222 0019 00000000 		.4byte	.Ldebug_line0
+ 1223 001d 02       		.uleb128 0x2
+ 1224 001e 01       		.byte	0x1
+ 1225 001f 06       		.byte	0x6
+ 1226 0020 C5010000 		.4byte	.LASF0
+ 1227 0024 03       		.uleb128 0x3
+ 1228 0025 00000000 		.4byte	.LASF9
+ 1229 0029 01       		.byte	0x1
+ 1230 002a 1D       		.byte	0x1d
+ 1231 002b 2F000000 		.4byte	0x2f
+ 1232 002f 02       		.uleb128 0x2
+ 1233 0030 01       		.byte	0x1
+ 1234 0031 08       		.byte	0x8
+ 1235 0032 16000000 		.4byte	.LASF1
+ 1236 0036 02       		.uleb128 0x2
+ 1237 0037 02       		.byte	0x2
+ 1238 0038 05       		.byte	0x5
+ 1239 0039 B2010000 		.4byte	.LASF2
+ 1240 003d 02       		.uleb128 0x2
+ 1241 003e 02       		.byte	0x2
+ 1242 003f 07       		.byte	0x7
+ 1243 0040 C4000000 		.4byte	.LASF3
+ 1244 0044 02       		.uleb128 0x2
+ 1245 0045 04       		.byte	0x4
+ 1246 0046 05       		.byte	0x5
+ 1247 0047 BC010000 		.4byte	.LASF4
+ 1248 004b 02       		.uleb128 0x2
+ 1249 004c 04       		.byte	0x4
+ 1250 004d 07       		.byte	0x7
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 23
+
+
+ 1251 004e B2000000 		.4byte	.LASF5
+ 1252 0052 02       		.uleb128 0x2
+ 1253 0053 08       		.byte	0x8
+ 1254 0054 05       		.byte	0x5
+ 1255 0055 51010000 		.4byte	.LASF6
+ 1256 0059 02       		.uleb128 0x2
+ 1257 005a 08       		.byte	0x8
+ 1258 005b 07       		.byte	0x7
+ 1259 005c 06010000 		.4byte	.LASF7
+ 1260 0060 04       		.uleb128 0x4
+ 1261 0061 04       		.byte	0x4
+ 1262 0062 05       		.byte	0x5
+ 1263 0063 696E7400 		.ascii	"int\000"
+ 1264 0067 02       		.uleb128 0x2
+ 1265 0068 04       		.byte	0x4
+ 1266 0069 07       		.byte	0x7
+ 1267 006a F9000000 		.4byte	.LASF8
+ 1268 006e 03       		.uleb128 0x3
+ 1269 006f 1D010000 		.4byte	.LASF10
+ 1270 0073 02       		.byte	0x2
+ 1271 0074 18       		.byte	0x18
+ 1272 0075 24000000 		.4byte	0x24
+ 1273 0079 05       		.uleb128 0x5
+ 1274 007a 91000000 		.4byte	0x91
+ 1275 007e 8A000000 		.4byte	0x8a
+ 1276 0082 06       		.uleb128 0x6
+ 1277 0083 8A000000 		.4byte	0x8a
+ 1278 0087 6F04     		.2byte	0x46f
+ 1279 0089 00       		.byte	0
+ 1280 008a 02       		.uleb128 0x2
+ 1281 008b 04       		.byte	0x4
+ 1282 008c 07       		.byte	0x7
+ 1283 008d 48010000 		.4byte	.LASF11
+ 1284 0091 07       		.uleb128 0x7
+ 1285 0092 6E000000 		.4byte	0x6e
+ 1286 0096 08       		.uleb128 0x8
+ 1287 0097 E7000000 		.4byte	.LASF12
+ 1288 009b 03       		.byte	0x3
+ 1289 009c 1F       		.byte	0x1f
+ 1290 009d A7000000 		.4byte	0xa7
+ 1291 00a1 05       		.uleb128 0x5
+ 1292 00a2 03       		.byte	0x3
+ 1293 00a3 00000000 		.4byte	cy_meta_configecc
+ 1294 00a7 07       		.uleb128 0x7
+ 1295 00a8 79000000 		.4byte	0x79
+ 1296 00ac 05       		.uleb128 0x5
+ 1297 00ad 91000000 		.4byte	0x91
+ 1298 00b1 BC000000 		.4byte	0xbc
+ 1299 00b5 09       		.uleb128 0x9
+ 1300 00b6 8A000000 		.4byte	0x8a
+ 1301 00ba 03       		.byte	0x3
+ 1302 00bb 00       		.byte	0
+ 1303 00bc 08       		.uleb128 0x8
+ 1304 00bd D7000000 		.4byte	.LASF13
+ 1305 00c1 03       		.byte	0x3
+ 1306 00c2 BA       		.byte	0xba
+ 1307 00c3 CD000000 		.4byte	0xcd
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 24
+
+
+ 1308 00c7 05       		.uleb128 0x5
+ 1309 00c8 03       		.byte	0x3
+ 1310 00c9 00000000 		.4byte	cy_meta_custnvl
+ 1311 00cd 07       		.uleb128 0x7
+ 1312 00ce AC000000 		.4byte	0xac
+ 1313 00d2 08       		.uleb128 0x8
+ 1314 00d3 3A010000 		.4byte	.LASF14
+ 1315 00d7 03       		.byte	0x3
+ 1316 00d8 C8       		.byte	0xc8
+ 1317 00d9 E3000000 		.4byte	0xe3
+ 1318 00dd 05       		.uleb128 0x5
+ 1319 00de 03       		.byte	0x3
+ 1320 00df 00000000 		.4byte	cy_meta_wonvl
+ 1321 00e3 07       		.uleb128 0x7
+ 1322 00e4 AC000000 		.4byte	0xac
+ 1323 00e8 05       		.uleb128 0x5
+ 1324 00e9 91000000 		.4byte	0x91
+ 1325 00ed F8000000 		.4byte	0xf8
+ 1326 00f1 09       		.uleb128 0x9
+ 1327 00f2 8A000000 		.4byte	0x8a
+ 1328 00f6 FF       		.byte	0xff
+ 1329 00f7 00       		.byte	0
+ 1330 00f8 08       		.uleb128 0x8
+ 1331 00f9 25010000 		.4byte	.LASF15
+ 1332 00fd 03       		.byte	0x3
+ 1333 00fe D6       		.byte	0xd6
+ 1334 00ff 09010000 		.4byte	0x109
+ 1335 0103 05       		.uleb128 0x5
+ 1336 0104 03       		.byte	0x3
+ 1337 0105 00000000 		.4byte	cy_meta_flashprotect
+ 1338 0109 07       		.uleb128 0x7
+ 1339 010a E8000000 		.4byte	0xe8
+ 1340 010e 05       		.uleb128 0x5
+ 1341 010f 91000000 		.4byte	0x91
+ 1342 0113 1E010000 		.4byte	0x11e
+ 1343 0117 09       		.uleb128 0x9
+ 1344 0118 8A000000 		.4byte	0x8a
+ 1345 011c 0B       		.byte	0xb
+ 1346 011d 00       		.byte	0
+ 1347 011e 0A       		.uleb128 0xa
+ 1348 011f 0A000000 		.4byte	.LASF16
+ 1349 0123 03       		.byte	0x3
+ 1350 0124 0301     		.2byte	0x103
+ 1351 0126 30010000 		.4byte	0x130
+ 1352 012a 05       		.uleb128 0x5
+ 1353 012b 03       		.byte	0x3
+ 1354 012c 00000000 		.4byte	cy_metadata
+ 1355 0130 07       		.uleb128 0x7
+ 1356 0131 0E010000 		.4byte	0x10e
+ 1357 0135 00       		.byte	0
+ 1358              		.section	.debug_abbrev,"",%progbits
+ 1359              	.Ldebug_abbrev0:
+ 1360 0000 01       		.uleb128 0x1
+ 1361 0001 11       		.uleb128 0x11
+ 1362 0002 01       		.byte	0x1
+ 1363 0003 25       		.uleb128 0x25
+ 1364 0004 0E       		.uleb128 0xe
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 25
+
+
+ 1365 0005 13       		.uleb128 0x13
+ 1366 0006 0B       		.uleb128 0xb
+ 1367 0007 03       		.uleb128 0x3
+ 1368 0008 0E       		.uleb128 0xe
+ 1369 0009 1B       		.uleb128 0x1b
+ 1370 000a 0E       		.uleb128 0xe
+ 1371 000b 10       		.uleb128 0x10
+ 1372 000c 17       		.uleb128 0x17
+ 1373 000d 00       		.byte	0
+ 1374 000e 00       		.byte	0
+ 1375 000f 02       		.uleb128 0x2
+ 1376 0010 24       		.uleb128 0x24
+ 1377 0011 00       		.byte	0
+ 1378 0012 0B       		.uleb128 0xb
+ 1379 0013 0B       		.uleb128 0xb
+ 1380 0014 3E       		.uleb128 0x3e
+ 1381 0015 0B       		.uleb128 0xb
+ 1382 0016 03       		.uleb128 0x3
+ 1383 0017 0E       		.uleb128 0xe
+ 1384 0018 00       		.byte	0
+ 1385 0019 00       		.byte	0
+ 1386 001a 03       		.uleb128 0x3
+ 1387 001b 16       		.uleb128 0x16
+ 1388 001c 00       		.byte	0
+ 1389 001d 03       		.uleb128 0x3
+ 1390 001e 0E       		.uleb128 0xe
+ 1391 001f 3A       		.uleb128 0x3a
+ 1392 0020 0B       		.uleb128 0xb
+ 1393 0021 3B       		.uleb128 0x3b
+ 1394 0022 0B       		.uleb128 0xb
+ 1395 0023 49       		.uleb128 0x49
+ 1396 0024 13       		.uleb128 0x13
+ 1397 0025 00       		.byte	0
+ 1398 0026 00       		.byte	0
+ 1399 0027 04       		.uleb128 0x4
+ 1400 0028 24       		.uleb128 0x24
+ 1401 0029 00       		.byte	0
+ 1402 002a 0B       		.uleb128 0xb
+ 1403 002b 0B       		.uleb128 0xb
+ 1404 002c 3E       		.uleb128 0x3e
+ 1405 002d 0B       		.uleb128 0xb
+ 1406 002e 03       		.uleb128 0x3
+ 1407 002f 08       		.uleb128 0x8
+ 1408 0030 00       		.byte	0
+ 1409 0031 00       		.byte	0
+ 1410 0032 05       		.uleb128 0x5
+ 1411 0033 01       		.uleb128 0x1
+ 1412 0034 01       		.byte	0x1
+ 1413 0035 49       		.uleb128 0x49
+ 1414 0036 13       		.uleb128 0x13
+ 1415 0037 01       		.uleb128 0x1
+ 1416 0038 13       		.uleb128 0x13
+ 1417 0039 00       		.byte	0
+ 1418 003a 00       		.byte	0
+ 1419 003b 06       		.uleb128 0x6
+ 1420 003c 21       		.uleb128 0x21
+ 1421 003d 00       		.byte	0
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 26
+
+
+ 1422 003e 49       		.uleb128 0x49
+ 1423 003f 13       		.uleb128 0x13
+ 1424 0040 2F       		.uleb128 0x2f
+ 1425 0041 05       		.uleb128 0x5
+ 1426 0042 00       		.byte	0
+ 1427 0043 00       		.byte	0
+ 1428 0044 07       		.uleb128 0x7
+ 1429 0045 26       		.uleb128 0x26
+ 1430 0046 00       		.byte	0
+ 1431 0047 49       		.uleb128 0x49
+ 1432 0048 13       		.uleb128 0x13
+ 1433 0049 00       		.byte	0
+ 1434 004a 00       		.byte	0
+ 1435 004b 08       		.uleb128 0x8
+ 1436 004c 34       		.uleb128 0x34
+ 1437 004d 00       		.byte	0
+ 1438 004e 03       		.uleb128 0x3
+ 1439 004f 0E       		.uleb128 0xe
+ 1440 0050 3A       		.uleb128 0x3a
+ 1441 0051 0B       		.uleb128 0xb
+ 1442 0052 3B       		.uleb128 0x3b
+ 1443 0053 0B       		.uleb128 0xb
+ 1444 0054 49       		.uleb128 0x49
+ 1445 0055 13       		.uleb128 0x13
+ 1446 0056 3F       		.uleb128 0x3f
+ 1447 0057 19       		.uleb128 0x19
+ 1448 0058 02       		.uleb128 0x2
+ 1449 0059 18       		.uleb128 0x18
+ 1450 005a 00       		.byte	0
+ 1451 005b 00       		.byte	0
+ 1452 005c 09       		.uleb128 0x9
+ 1453 005d 21       		.uleb128 0x21
+ 1454 005e 00       		.byte	0
+ 1455 005f 49       		.uleb128 0x49
+ 1456 0060 13       		.uleb128 0x13
+ 1457 0061 2F       		.uleb128 0x2f
+ 1458 0062 0B       		.uleb128 0xb
+ 1459 0063 00       		.byte	0
+ 1460 0064 00       		.byte	0
+ 1461 0065 0A       		.uleb128 0xa
+ 1462 0066 34       		.uleb128 0x34
+ 1463 0067 00       		.byte	0
+ 1464 0068 03       		.uleb128 0x3
+ 1465 0069 0E       		.uleb128 0xe
+ 1466 006a 3A       		.uleb128 0x3a
+ 1467 006b 0B       		.uleb128 0xb
+ 1468 006c 3B       		.uleb128 0x3b
+ 1469 006d 05       		.uleb128 0x5
+ 1470 006e 49       		.uleb128 0x49
+ 1471 006f 13       		.uleb128 0x13
+ 1472 0070 3F       		.uleb128 0x3f
+ 1473 0071 19       		.uleb128 0x19
+ 1474 0072 02       		.uleb128 0x2
+ 1475 0073 18       		.uleb128 0x18
+ 1476 0074 00       		.byte	0
+ 1477 0075 00       		.byte	0
+ 1478 0076 00       		.byte	0
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 27
+
+
+ 1479              		.section	.debug_aranges,"",%progbits
+ 1480 0000 14000000 		.4byte	0x14
+ 1481 0004 0200     		.2byte	0x2
+ 1482 0006 00000000 		.4byte	.Ldebug_info0
+ 1483 000a 04       		.byte	0x4
+ 1484 000b 00       		.byte	0
+ 1485 000c 0000     		.2byte	0
+ 1486 000e 0000     		.2byte	0
+ 1487 0010 00000000 		.4byte	0
+ 1488 0014 00000000 		.4byte	0
+ 1489              		.section	.debug_line,"",%progbits
+ 1490              	.Ldebug_line0:
+ 1491 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
+ 1491      02003701 
+ 1491      00000201 
+ 1491      FB0E0D00 
+ 1491      01010101 
+ 1492              	.LASF9:
+ 1493 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ 1493      6E74385F 
+ 1493      7400
+ 1494              	.LASF16:
+ 1495 000a 63795F6D 		.ascii	"cy_metadata\000"
+ 1495      65746164 
+ 1495      61746100 
+ 1496              	.LASF1:
+ 1497 0016 756E7369 		.ascii	"unsigned char\000"
+ 1497      676E6564 
+ 1497      20636861 
+ 1497      7200
+ 1498              	.LASF17:
+ 1499 0024 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1499      43313120 
+ 1499      352E342E 
+ 1499      31203230 
+ 1499      31363036 
+ 1500 0057 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1500      20726576 
+ 1500      6973696F 
+ 1500      6E203233 
+ 1500      37373135 
+ 1501 008a 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1501      66756E63 
+ 1501      74696F6E 
+ 1501      2D736563 
+ 1501      74696F6E 
+ 1502              	.LASF5:
+ 1503 00b2 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1503      20756E73 
+ 1503      69676E65 
+ 1503      6420696E 
+ 1503      7400
+ 1504              	.LASF3:
+ 1505 00c4 73686F72 		.ascii	"short unsigned int\000"
+ 1505      7420756E 
+ 1505      7369676E 
+ 1505      65642069 
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 28
+
+
+ 1505      6E7400
+ 1506              	.LASF13:
+ 1507 00d7 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 1507      6574615F 
+ 1507      63757374 
+ 1507      6E766C00 
+ 1508              	.LASF12:
+ 1509 00e7 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 1509      6574615F 
+ 1509      636F6E66 
+ 1509      69676563 
+ 1509      6300
+ 1510              	.LASF8:
+ 1511 00f9 756E7369 		.ascii	"unsigned int\000"
+ 1511      676E6564 
+ 1511      20696E74 
+ 1511      00
+ 1512              	.LASF7:
+ 1513 0106 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1513      206C6F6E 
+ 1513      6720756E 
+ 1513      7369676E 
+ 1513      65642069 
+ 1514              	.LASF10:
+ 1515 011d 75696E74 		.ascii	"uint8_t\000"
+ 1515      385F7400 
+ 1516              	.LASF15:
+ 1517 0125 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 1517      6574615F 
+ 1517      666C6173 
+ 1517      6870726F 
+ 1517      74656374 
+ 1518              	.LASF14:
+ 1519 013a 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 1519      6574615F 
+ 1519      776F6E76 
+ 1519      6C00
+ 1520              	.LASF11:
+ 1521 0148 73697A65 		.ascii	"sizetype\000"
+ 1521      74797065 
+ 1521      00
+ 1522              	.LASF6:
+ 1523 0151 6C6F6E67 		.ascii	"long long int\000"
+ 1523      206C6F6E 
+ 1523      6720696E 
+ 1523      7400
+ 1524              	.LASF19:
+ 1525 015f 443A5C55 		.ascii	"D:\\Users\\Guillaume\\Desktop\\BE_Capteurs-main\\Wo"
+ 1525      73657273 
+ 1525      5C477569 
+ 1525      6C6C6175 
+ 1525      6D655C44 
+ 1526 018d 726B7370 		.ascii	"rkspaceCapteur\\Capteur_LDR_LCD.cydsn\000"
+ 1526      61636543 
+ 1526      61707465 
+ 1526      75725C43 
+ 1526      61707465 
+ARM GAS  C:\Users\GUILLA~1\AppData\Local\Temp\ccUKSh4R.s 			page 29
+
+
+ 1527              	.LASF2:
+ 1528 01b2 73686F72 		.ascii	"short int\000"
+ 1528      7420696E 
+ 1528      7400
+ 1529              	.LASF4:
+ 1530 01bc 6C6F6E67 		.ascii	"long int\000"
+ 1530      20696E74 
+ 1530      00
+ 1531              	.LASF0:
+ 1532 01c5 7369676E 		.ascii	"signed char\000"
+ 1532      65642063 
+ 1532      68617200 
+ 1533              	.LASF18:
+ 1534 01d1 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 1534      72617465 
+ 1534      645F536F 
+ 1534      75726365 
+ 1534      5C50536F 
+ 1535              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

@@ -1,13 +1,13 @@
-Loading plugins phase: Elapsed time ==> 0s.253ms
+Loading plugins phase: Elapsed time ==> 0s.137ms
 <CYPRESSTAG name="CyDsfit arguments...">
-cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\Souleymane BAH\Documents\PSoC Creator\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj -d CY8C5868AXI-LP035 -s C:\Users\Souleymane BAH\Documents\PSoC Creator\WorkspaceCapteur\Capteur_LDR.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj -d CY8C5868AXI-LP035 -s D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
 </CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 1s.912ms
+Elaboration phase: Elapsed time ==> 1s.107ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
-HDL generation phase: Elapsed time ==> 0s.079ms
+HDL generation phase: Elapsed time ==> 0s.052ms
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -24,24 +24,24 @@ HDL generation phase: Elapsed time ==> 0s.079ms
 
 ======================================================================
 Compiling:  Capteur_LDR.v
-Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Souleymane BAH\Documents\PSoC Creator\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj -dcpsoc3 Capteur_LDR.v -verilog
+Program  :   D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj -dcpsoc3 Capteur_LDR.v -verilog
 ======================================================================
 
 ======================================================================
 Compiling:  Capteur_LDR.v
-Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Souleymane BAH\Documents\PSoC Creator\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj -dcpsoc3 Capteur_LDR.v -verilog
+Program  :   D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj -dcpsoc3 Capteur_LDR.v -verilog
 ======================================================================
 
 ======================================================================
 Compiling:  Capteur_LDR.v
 Program  :   vlogfe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Souleymane BAH\Documents\PSoC Creator\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj -dcpsoc3 -verilog Capteur_LDR.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj -dcpsoc3 -verilog Capteur_LDR.v
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Wed Jan 06 10:42:52 2021
+Mon Jan 18 13:09:47 2021
 
 
 ======================================================================
@@ -51,26 +51,26 @@ Options  :    -yv2 -q10 Capteur_LDR.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Wed Jan 06 10:42:52 2021
+Mon Jan 18 13:09:47 2021
 
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\not_v1_0\not_v1_0.v'
-Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'
+Flattening file 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
+Flattening file 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\not_v1_0\not_v1_0.v'
+Flattening file 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'
 
 vpp:  No errors.
 
 Library 'work' => directory 'lcpsoc3'
 General_symbol_table
 General_symbol_table
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\std.vhd'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.vhd'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\work\cypress.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
 Using control file 'Capteur_LDR.ctl'.
 
 vlogfe:  No errors.
@@ -79,26 +79,26 @@ vlogfe:  No errors.
 ======================================================================
 Compiling:  Capteur_LDR.v
 Program  :   tovif
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Souleymane BAH\Documents\PSoC Creator\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj -dcpsoc3 -verilog Capteur_LDR.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj -dcpsoc3 -verilog Capteur_LDR.v
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Wed Jan 06 10:42:52 2021
+Mon Jan 18 13:09:47 2021
 
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\std.vhd'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.vhd'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\work\cypress.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
-Linking 'C:\Users\Souleymane BAH\Documents\PSoC Creator\WorkspaceCapteur\Capteur_LDR.cydsn\codegentemp\Capteur_LDR.ctl'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
-Linking 'C:\Users\Souleymane BAH\Documents\PSoC Creator\WorkspaceCapteur\Capteur_LDR.cydsn\codegentemp\Capteur_LDR.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\not_v1_0\not_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR.cydsn\codegentemp\Capteur_LDR.ctl'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR.cydsn\codegentemp\Capteur_LDR.v'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\not_v1_0\not_v1_0.v'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
 
 tovif:  No errors.
 
@@ -106,27 +106,27 @@ tovif:  No errors.
 ======================================================================
 Compiling:  Capteur_LDR.v
 Program  :   topld
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Souleymane BAH\Documents\PSoC Creator\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj -dcpsoc3 -verilog Capteur_LDR.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj -dcpsoc3 -verilog Capteur_LDR.v
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Wed Jan 06 10:42:53 2021
+Mon Jan 18 13:09:47 2021
 
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\std.vhd'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.vhd'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\work\cypress.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
-Linking 'C:\Users\Souleymane BAH\Documents\PSoC Creator\WorkspaceCapteur\Capteur_LDR.cydsn\codegentemp\Capteur_LDR.ctl'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
-Linking 'C:\Users\Souleymane BAH\Documents\PSoC Creator\WorkspaceCapteur\Capteur_LDR.cydsn\codegentemp\Capteur_LDR.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\not_v1_0\not_v1_0.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
-Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR.cydsn\codegentemp\Capteur_LDR.ctl'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR.cydsn\codegentemp\Capteur_LDR.v'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\not_v1_0\not_v1_0.v'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
 
 ----------------------------------------------------------
 Detecting unused logic.
@@ -197,18 +197,18 @@ Circuit simplification results:
 
 topld:  No errors.
 
-CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp
-Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
-Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=C:\Users\Souleymane BAH\Documents\PSoC Creator\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj" -dcpsoc3 Capteur_LDR.v -verilog
+CYPRESS_DIR    : D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp
+Warp Program   : D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj -dcpsoc3 Capteur_LDR.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 2s.435ms
+Warp synthesis phase: Elapsed time ==> 0s.427ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V4.4.0.80, Family: PSoC3, Started at: Wednesday, 06 January 2021 10:42:53
-Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\Souleymane BAH\Documents\PSoC Creator\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj -d CY8C5868AXI-LP035 Capteur_LDR.v -verilog
+cyp3fit: V4.4.0.80, Family: PSoC3, Started at: Monday, 18 January 2021 13:09:47
+Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=D:\Users\Guillaume\Desktop\BE_Capteurs-main\WorkspaceCapteur\Capteur_LDR.cydsn\Capteur_LDR.cyprj -d CY8C5868AXI-LP035 Capteur_LDR.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
-Design parsing phase: Elapsed time ==> 0s.083ms
+Design parsing phase: Elapsed time ==> 0s.011ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Tech Mapping">
 <CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
@@ -309,7 +309,7 @@ Design Equations
             IO Voltage: 0
         PORT MAP (
             pa_out => LDR(0)__PA ,
-            analog_term => Net_27 ,
+            analog_term => Net_77 ,
             pad => LDR(0)_PAD );
         Properties:
         {
@@ -410,8 +410,8 @@ Analog (SC/CT) Blocks         :    0 :    4 :    4 :  0.00 %
 DAC                           :      :      :      :        
   VIDAC                       :    3 :    1 :    4 : 75.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.191ms
-Tech Mapping phase: Elapsed time ==> 0s.406ms
+Technology Mapping: Elapsed time ==> 0s.008ms
+Tech Mapping phase: Elapsed time ==> 0s.076ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 Initial Analog Placement Results:
@@ -435,16 +435,16 @@ VIDAC[3]@[FFB(VIDAC,3)] : \IDAC8:viDAC8\
 VIDAC[2]@[FFB(VIDAC,2)] : \VDAC8_1:viDAC8\
 VIDAC[1]@[FFB(VIDAC,1)] : \VDAC8_2:viDAC8\
 
-Analog Placement phase: Elapsed time ==> 1s.785ms
+Analog Placement phase: Elapsed time ==> 1s.370ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
-Analog Routing phase: Elapsed time ==> 0s.005ms
+Analog Routing phase: Elapsed time ==> 0s.002ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Code Generation">
 ============ Analog Final Answer Routes ============
 Dump of CyAnalogRoutingResultsDB
 Map of net to items {
-  Net: Net_27 {
+  Net: Net_77 {
     vidac_3_iout
     agr4_x_vidac_3_iout
     agr4
@@ -479,17 +479,17 @@ Map of net to items {
   }
 }
 Map of item to net {
-  vidac_3_iout                                     -> Net_27
-  agr4_x_vidac_3_iout                              -> Net_27
-  agr4                                             -> Net_27
-  agl4_x_agr4                                      -> Net_27
-  agl4                                             -> Net_27
-  agl4_x_comp_2_vplus                              -> Net_27
-  comp_2_vplus                                     -> Net_27
-  agr4_x_comp_1_vplus                              -> Net_27
-  comp_1_vplus                                     -> Net_27
-  agl4_x_p0_0                                      -> Net_27
-  p0_0                                             -> Net_27
+  vidac_3_iout                                     -> Net_77
+  agr4_x_vidac_3_iout                              -> Net_77
+  agr4                                             -> Net_77
+  agl4_x_agr4                                      -> Net_77
+  agl4                                             -> Net_77
+  agl4_x_comp_2_vplus                              -> Net_77
+  comp_2_vplus                                     -> Net_77
+  agr4_x_comp_1_vplus                              -> Net_77
+  comp_1_vplus                                     -> Net_77
+  agl4_x_p0_0                                      -> Net_77
+  p0_0                                             -> Net_77
   vidac_2_vout                                     -> Net_56
   agl5_x_vidac_2_vout                              -> Net_56
   agl5                                             -> Net_56
@@ -507,26 +507,26 @@ Dump of CyP35AnalogRoutingResultsDB
 IsVddaHalfUsedForComp = False
 IsVddaHalfUsedForSar0 = False
 IsVddaHalfUsedForSar1 = False
-Analog Code Generation phase: Elapsed time ==> 0s.331ms
+Analog Code Generation phase: Elapsed time ==> 0s.240ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
 I2659: No Constrained paths were found. The placer will run in non-timing driven mode.
-I2076: Total run-time: 0.6 sec.
+I2076: Total run-time: 0.5 sec.
 
 </CYPRESSTAG>
 <CYPRESSTAG name="PLD Packing">
 <CYPRESSTAG name="PLD Packing Summary">
 No PLDs were packed.
 </CYPRESSTAG>
-PLD Packing: Elapsed time ==> 0s.033ms
+PLD Packing: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Partitioning">
 <CYPRESSTAG name="Initial Partitioning Summary">
 Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
 <CYPRESSTAG name="Final Partitioning Summary">
 Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
-Partitioning: Elapsed time ==> 0s.128ms
+Partitioning: Elapsed time ==> 0s.007ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Final Placement Summary">
 
@@ -605,7 +605,7 @@ Pin : Name = LDR(0)
         IO Voltage: 0
     PORT MAP (
         pa_out => LDR(0)__PA ,
-        analog_term => Net_27 ,
+        analog_term => Net_77 ,
         pad => LDR(0)_PAD );
     Properties:
     {
@@ -727,7 +727,7 @@ Comparator group 0:
     Comparator Block @ F(Comparator,1): 
     comparatorcell: Name =\Comp_2:ctComp\
         PORT MAP (
-            vplus => Net_27 ,
+            vplus => Net_77 ,
             vminus => Net_49 ,
             out => Net_74 );
         Properties:
@@ -737,7 +737,7 @@ Comparator group 0:
     Comparator Block @ F(Comparator,2): 
     comparatorcell: Name =\Comp_1:ctComp\
         PORT MAP (
-            vplus => Net_27 ,
+            vplus => Net_77 ,
             vminus => Net_56 ,
             out => Net_72 );
         Properties:
@@ -784,7 +784,7 @@ VIDAC group 0:
     vidaccell: Name =\IDAC8:viDAC8\
         PORT MAP (
             vout => \IDAC8:Net_124\ ,
-            iout => Net_27 );
+            iout => Net_77 );
         Properties:
         {
             cy_registers = ""
@@ -807,7 +807,7 @@ Port Configuration report
      |     |       | Interrupt |                  |         | 
 Port | Pin | Fixed |      Type |       Drive Mode |    Name | Connections
 -----+-----+-------+-----------+------------------+---------+---------------
-   0 |   0 |     * |      NONE |      HI_Z_ANALOG |  LDR(0) | Analog(Net_27)
+   0 |   0 |     * |      NONE |      HI_Z_ANALOG |  LDR(0) | Analog(Net_77)
 -----+-----+-------+-----------+------------------+---------+---------------
    6 |   2 |     * |      NONE |         CMOS_OUT | LED4(0) | In(Net_72)
      |   3 |     * |      NONE |         CMOS_OUT | LED3(0) | In(Net_74)
@@ -815,33 +815,33 @@ Port | Pin | Fixed |      Type |       Drive Mode |    Name | Connections
 </CYPRESSTAG>
 </CYPRESSTAG>
 </CYPRESSTAG>
-Digital component placer commit/Report: Elapsed time ==> 0s.024ms
-Digital Placement phase: Elapsed time ==> 1s.685ms
+Digital component placer commit/Report: Elapsed time ==> 0s.006ms
+Digital Placement phase: Elapsed time ==> 0s.713ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
-"C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\bin/sjrouter.exe" --xml-path "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\dev\psoc5/psoc5lp/route_arch-rrg.cydata" --vh2-path "Capteur_LDR_r.vh2" --pcf-path "Capteur_LDR.pco" --des-name "Capteur_LDR" --dsf-path "Capteur_LDR.dsf" --sdc-path "Capteur_LDR.sdc" --lib-path "Capteur_LDR_r.lib"
+"D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\bin/sjrouter.exe" --xml-path "D:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\dev\psoc5/psoc5lp/route_arch-rrg.cydata" --vh2-path "Capteur_LDR_r.vh2" --pcf-path "Capteur_LDR.pco" --des-name "Capteur_LDR" --dsf-path "Capteur_LDR.dsf" --sdc-path "Capteur_LDR.sdc" --lib-path "Capteur_LDR_r.lib"
 Routing successful.
-Digital Routing phase: Elapsed time ==> 2s.062ms
+Digital Routing phase: Elapsed time ==> 1s.219ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Generation">
-Bitstream Generation phase: Elapsed time ==> 0s.449ms
+Bitstream Generation phase: Elapsed time ==> 0s.233ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Verification">
-Bitstream Verification phase: Elapsed time ==> 0s.131ms
+Bitstream Verification phase: Elapsed time ==> 0s.037ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Timing report is in Capteur_LDR_timing.html.
-Static timing analysis phase: Elapsed time ==> 0s.643ms
+Static timing analysis phase: Elapsed time ==> 0s.219ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
-Data reporting phase: Elapsed time ==> 0s.002ms
+Data reporting phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.179ms
+Design database save phase: Elapsed time ==> 0s.183ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 7s.813ms
+cydsfit: Elapsed time ==> 4s.374ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 7s.822ms
-API generation phase: Elapsed time ==> 1s.367ms
-Dependency generation phase: Elapsed time ==> 0s.018ms
-Cleanup phase: Elapsed time ==> 0s.003ms
+Fitter phase: Elapsed time ==> 4s.374ms
+API generation phase: Elapsed time ==> 1s.319ms
+Dependency generation phase: Elapsed time ==> 0s.019ms
+Cleanup phase: Elapsed time ==> 0s.000ms
