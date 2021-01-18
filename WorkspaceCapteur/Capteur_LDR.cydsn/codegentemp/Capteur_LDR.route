@@ -1,0 +1,25 @@
+net Net_72
+	term   ":comparatorcell_2.out"
+	switch ":comparatorcell_2.out==>Stub-:dsiswitch_top@[DSI=(0,3)][side=top]:dsihc_top:v4+:dsiswitch_top@[DSI=(0,3)][side=top]:dsihc_top:v6"
+	switch "OStub-:dsiswitch_top@[DSI=(0,3)][side=top]:dsihc_top:v4+:dsiswitch_top@[DSI=(0,3)][side=top]:dsihc_top:v6"
+	switch ":dsiswitch_top@[DSI=(0,3)][side=top]:dsihc_top:4,40"
+	switch ":hvswitch@[UDB=(0,3)][side=left]:hseg_40_f"
+	switch ":hvswitch@[UDB=(0,4)][side=left]:hseg_40_f"
+	switch ":dsiswitch_top@[DSI=(0,5)][side=top]:dsihc_top:91,40_f"
+	switch "IStub-:dsiswitch_top@[DSI=(0,5)][side=top]:dsihc_top:v87+:dsiswitch_top@[DSI=(0,5)][side=top]:dsihc_top:v89+:dsiswitch_top@[DSI=(0,5)][side=top]:dsihc_top:v91"
+	switch "Stub-:dsiswitch_top@[DSI=(0,5)][side=top]:dsihc_top:v87+:dsiswitch_top@[DSI=(0,5)][side=top]:dsihc_top:v89+:dsiswitch_top@[DSI=(0,5)][side=top]:dsihc_top:v91==>:ioport6:inputs1_mux.in_3"
+	switch ":ioport6:inputs1_mux.pin2__pin_input==>:ioport6:pin2.pin_input"
+	term   ":ioport6:pin2.pin_input"
+end Net_72
+net Net_74
+	term   ":comparatorcell_1.out"
+	switch ":comparatorcell_1.out==>Stub-:dsiswitch_top@[DSI=(0,4)][side=top]:dsihc_top:v16+:dsiswitch_top@[DSI=(0,4)][side=top]:dsihc_top:v18"
+	switch "OStub-:dsiswitch_top@[DSI=(0,4)][side=top]:dsihc_top:v16+:dsiswitch_top@[DSI=(0,4)][side=top]:dsihc_top:v18"
+	switch ":dsiswitch_top@[DSI=(0,4)][side=top]:dsihc_top:18,17"
+	switch ":hvswitch@[UDB=(0,4)][side=left]:hseg_17_f"
+	switch ":dsiswitch_top@[DSI=(0,5)][side=top]:dsihc_top:82,17_f"
+	switch "IStub-:dsiswitch_top@[DSI=(0,5)][side=top]:dsihc_top:v80+:dsiswitch_top@[DSI=(0,5)][side=top]:dsihc_top:v82+:dsiswitch_top@[DSI=(0,5)][side=top]:dsihc_top:v84"
+	switch "Stub-:dsiswitch_top@[DSI=(0,5)][side=top]:dsihc_top:v80+:dsiswitch_top@[DSI=(0,5)][side=top]:dsihc_top:v82+:dsiswitch_top@[DSI=(0,5)][side=top]:dsihc_top:v84==>:ioport6:inputs1_mux.in_0"
+	switch ":ioport6:inputs1_mux.pin3__pin_input==>:ioport6:pin3.pin_input"
+	term   ":ioport6:pin3.pin_input"
+end Net_74
